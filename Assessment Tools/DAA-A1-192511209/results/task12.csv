@@ -1,0 +1,4 @@
+reg_no,name,algorithm,build_ms_per_day,searches_run,ms_for_50000,us_per_search,avg_comps,max_comps,cpu_ms_per_hour,pct_of_hour,cpu_ms_per_day,build_us_per_search,update_incremental_ms,update_rebuild_ms,correct,scaled_from_sample
+192511209,"Jason Joshva M J",Hash table,16.1645315789,50000,1.9122,0.038244,1.3048,7,1.9122,5.31166666667e-05,62.0573315789,0.0134704429825,0.4578,12.2337,50000,no
+192511209,"Jason Joshva M J",Binary search,139.929033333,50000,14.298,0.28596,19.04934,20,14.298,0.000397166666667,483.081033333,0.116607527778,4.984,131.209,50000,no
+192511209,"Jason Joshva M J",Linear search,0,2000,55607.8475,1112.15695,543047.0715,1000000,55607.8475,1.54466243056,1334588.34,0,0.1371,0,2000,yes
