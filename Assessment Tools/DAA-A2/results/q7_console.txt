@@ -1,0 +1,106 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q7 Diagnose, redesign and validate - airlift planner (from Q6)
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:24:58 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- A. Diagnosis: where the original exhaustive search spends its effort ----------------------
+  n   subsets    feasible  infeasible  infeasible %  item checks  additions   additions/subset  additions if reused  repeat factor
+  --  ---------  --------  ----------  ------------  -----------  ----------  ----------------  -------------------  -------------
+   8        256        79         177        69.141        2,048       1,024             4.000                  255          4.016
+  10      1,024       281         743        72.559       10,240       5,120             5.000                1,023          5.005
+  12      4,096     1,031       3,065        74.829       49,152      24,576             6.000                4,095          6.001
+  14     16,384     4,062      12,322        75.208      229,376     114,688             7.000               16,383          7.000
+  16     65,536    15,346      50,190        76.584    1,048,576     524,288             8.000               65,535          8.000
+  18    262,144    57,396     204,748        78.105    4,718,592   2,359,296             9.000              262,143          9.000
+  20  1,048,576   213,967     834,609        79.595   20,971,520  10,485,760            10.000            1,048,575         10.000
+  [saved results\q7_diagnosis.csv]
+
+  at n = 20: 79.6% of all generated loads break the payload limit (all their work is wasted),
+  every subset is re-summed from scratch (10.0 additions each, x10.0 more than needed),
+  and the limit is only checked after the subset is complete (generate first, test later).
+
+--- B. Design objective (measurable) ----------------------------------------------------------
+  O1  return the same optimum as the original (and as an independent DP check) on every instance
+  O2  at n = 20: at least 90% fewer elementary operations than the original
+  O3  plan a 40-package airlift within the 1 s deadline (original limit: about 18)
+
+--- D. Prediction written before running the redesign -----------------------------------------
+  V1: same 2^n = 1,048,576 candidates; nodes = 2^(n+1)-1 = 2,097,151 instead of n x 2^n = 20,971,520 item checks -> about n/2 = 10x fewer operations
+  V2: candidates (leaves) drop to exactly the feasible loads = 213,967 (20.4%)
+  V3: candidates drop far below the feasible count, but the gain depends on the data
+      (expected to be weak when all packages have a similar value per kg)
+
+--- E. Original vs redesign on the same instances as Q6 ---------------------------------------
+  n   variant                 candidates  nodes      item steps  bound steps  total ops   best value  same optimum  time ms  ops gain x  time gain x
+  --  ----------------------  ----------  ---------  ----------  -----------  ----------  ----------  ------------  -------  ----------  -----------
+   8  V0 original exhaustive         256        256       2,048            0       2,048         270  PASS           0.3551       1.000        1.000
+   8  V1 reuse sums                  256        511         511            0         511         270  PASS             0.14       4.008        2.537
+   8  V2 + capacity pruning           79        215         215            0         215         270  PASS          0.05111       9.526        6.948
+   8  V3 + sort & bound               13         74          74           95         169         270  PASS          0.03627      12.118        9.790
+  10  V0 original exhaustive       1,024      1,024      10,240            0      10,240         366  PASS            1.576       1.000        1.000
+  10  V1 reuse sums                1,024      2,047       2,047            0       2,047         366  PASS           0.4179       5.002        3.771
+  10  V2 + capacity pruning          281        791         791            0         791         366  PASS           0.2132      12.946        7.391
+  10  V3 + sort & bound                5         75          75          113         188         366  PASS           0.0408      54.468       38.627
+  12  V0 original exhaustive       4,096      4,096      49,152            0      49,152         434  PASS            6.139       1.000        1.000
+  12  V1 reuse sums                4,096      8,191       8,191            0       8,191         434  PASS            1.906       6.001        3.221
+  12  V2 + capacity pruning        1,031      2,898       2,898            0       2,898         434  PASS           0.7259      16.961        8.457
+  12  V3 + sort & bound                2         30          30           53          83         434  PASS          0.02091     592.193      293.570
+  14  V0 original exhaustive      16,384     16,384     229,376            0     229,376         529  PASS           32.788       1.000        1.000
+  14  V1 reuse sums               16,384     32,767      32,767            0      32,767         529  PASS            7.855       7.000        4.174
+  14  V2 + capacity pruning        4,062      9,265       9,265            0       9,265         529  PASS            2.178      24.757       15.056
+  14  V3 + sort & bound                3         74          74          137         211         529  PASS          0.05437     1,087.1      603.104
+  16  V0 original exhaustive      65,536     65,536   1,048,576            0   1,048,576         660  PASS          139.713       1.000        1.000
+  16  V1 reuse sums               65,536    131,071     131,071            0     131,071         660  PASS           32.074       8.000        4.356
+  16  V2 + capacity pruning       15,346     38,901      38,901            0      38,901         660  PASS            9.743      26.955       14.340
+  16  V3 + sort & bound                1         25          25           91         116         660  PASS           0.0256     9,039.4      5,458.1
+  18  V0 original exhaustive     262,144    262,144   4,718,592            0   4,718,592         737  PASS          968.820       1.000        1.000
+  18  V1 reuse sums              262,144    524,287     524,287            0     524,287         737  PASS          136.259       9.000        7.110
+  18  V2 + capacity pruning       57,396    155,083     155,083            0     155,083         737  PASS           35.905      30.426       26.983
+  18  V3 + sort & bound                2         42          42          117         159         737  PASS          0.03212    29,676.7     30,159.0
+  20  V0 original exhaustive   1,048,576  1,048,576  20,971,520            0  20,971,520         801  PASS          3,057.2       1.000        1.000
+  20  V1 reuse sums            1,048,576  2,097,151   2,097,151            0   2,097,151         801  PASS          470.375      10.000        6.499
+  20  V2 + capacity pruning      213,967    592,192     592,192            0     592,192         801  PASS          135.405      35.413       22.578
+  20  V3 + sort & bound                1         32          32          120         152         801  PASS          0.03125   137,970.5     97,830.6
+  [saved results\q7_comparison.csv]
+
+--- E2. Larger airlifts with V3 (same manifest, more packages) --------------------------------
+  n   limit kg  2^n                                candidates  nodes  bound steps  total ops  best value  DP check  V3 time ms  original would need      within 1 s
+  --  --------  ---------------------------------  ----------  -----  -----------  ---------  ----------  --------  ----------  -----------------------  ----------
+  20       312                          1,048,576           1     32          120        152         801  PASS         0.04634  3.06 s                   yes       
+  25       385                         33,554,432           6    265          494        759         975  PASS          0.1944  2.0 minutes              yes       
+  30       423                      1,073,741,824           1     67          307        374       1,224  PASS         0.07282  1.3 hours                yes       
+  40       590                  1,099,511,627,776           3    174          626        800       1,552  PASS          0.1578  74.2 days                yes       
+  50       720              1,125,899,906,842,624           8    432        1,150      1,582       1,968  PASS          0.3643  260.0 years              yes       
+  60       839          1,152,921,504,606,846,976           3    312        1,386      1,698       2,303  PASS          0.3744  319,549.2 years          yes       
+  80     1,073  1,208,925,819,614,629,174,706,176           2    213        1,936      2,149       3,040  PASS          0.3318  446,762,110,097.0 years  yes       
+  [saved results\q7_large.csv]
+
+--- F. Limitation test: 5 instances per size, uncorrelated vs strongly correlated (node cap 2,000,000) ----
+  instance class       n   median nodes  max nodes  hit cap  max time ms  DP check
+  -------------------  --  ------------  ---------  -------  -----------  --------
+  uncorrelated         10            46         49        0       0.0689  PASS    
+  uncorrelated         20            54         88        0       0.0649  PASS    
+  uncorrelated         30            74        120        0       0.1362  PASS    
+  uncorrelated         40           191        682        0       0.3921  PASS    
+  uncorrelated         50           182        269        0       0.5604  PASS    
+  uncorrelated         60           161        255        0       0.4353  PASS    
+  strongly correlated  10            67        179        0       0.0938  PASS    
+  strongly correlated  20           241      1,837        0        1.221  PASS    
+  strongly correlated  30         2,044     35,315        0       17.564  PASS    
+  strongly correlated  40         4,487    194,407        0       97.773  PASS    
+  strongly correlated  50         2,344    658,227        0      392.309  PASS    
+  strongly correlated  60        37,296  2,000,001        1      1,083.6  PASS    
+  (a run that hits the node cap is stopped without an answer; the DP check covers the finished runs)
+  [saved results\q7_limitation.csv]
+
+--- Objective check ---------------------------------------------------------------------------
+  O1 same optimum on every instance                : MET
+  O2 operations at n = 20: 20,971,520 -> 152 (99.999% fewer) : MET
+  O3 40 packages in 0.16 ms (deadline 1000 ms)        : MET
+  limitation: strongly correlated, n = 60: median 37,296 nodes, max 2,000,001, 1 of 5 hit the node cap
+  [graph results\graphs\q7_comparison.png]
+  [graph results\graphs\q7_limitation.png]
+
+  [q7 finished in 10.2 s]
+

@@ -1,0 +1,95 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q6 Exhaustive search - humanitarian airlift (0/1 knapsack)
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:22:31 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Correctness check: 4 packages, payload limit 50 kg -> 2^4 = 16 subsets --------------------
+    P1 medical kits    weight  20 kg   value  90   value/kg 4.50
+    P2 drinking water  weight  25 kg   value  70   value/kg 2.80
+    P3 food rations    weight  15 kg   value  50   value/kg 3.33
+    P4 shelter tents   weight  30 kg   value  80   value/kg 2.67
+  mask (P1..P4)  packages       weight  value  feasible  best so far
+  -------------  -------------  ------  -----  --------  -----------
+           0000  {}                  0      0  yes                 0
+           1000  {P1}               20     90  yes                90
+           0100  {P2}               25     70  yes                90
+           1100  {P1,P2}            45    160  yes               160
+           0010  {P3}               15     50  yes               160
+           1010  {P1,P3}            35    140  yes               160
+           0110  {P2,P3}            40    120  yes               160
+           1110  {P1,P2,P3}         60    210  no                160
+           0001  {P4}               30     80  yes               160
+           1001  {P1,P4}            50    170  yes               170
+           0101  {P2,P4}            55    150  no                170
+           1101  {P1,P2,P4}         75    240  no                170
+           0011  {P3,P4}            45    130  yes               170
+           1011  {P1,P3,P4}         65    220  no                170
+           0111  {P2,P3,P4}         70    200  no                170
+           1111  {P1,P2,P3,P4}      90    290  no                170
+  [saved results\q6_small_instance.csv]
+
+  exhaustive search: value 170, weight 50 kg, load ['P1 medical kits', 'P4 shelter tents'], subsets 16, feasible 10
+  dynamic-programming check: value 170 -> PASS
+  for comparison, 'best value per kg first' gives ['P1', 'P3'] = value 140 (not optimal)
+
+--- Prediction before running: candidates = 2^n, item checks = n x 2^n ------------------------
+  n   2^n subsets  n x 2^n item checks  vs previous size
+  --  -----------  -------------------  ----------------
+   8          256                2,048  -               
+  10        1,024               10,240  x4 subsets      
+  12        4,096               49,152  x4 subsets      
+  14       16,384              229,376  x4 subsets      
+  16       65,536            1,048,576  x4 subsets      
+  18      262,144            4,718,592  x4 subsets      
+  20    1,048,576           20,971,520  x4 subsets      
+
+--- Experiment: growth with the number of packages (same manifest, extra packages added) ------
+  n   limit kg  2^n        subsets    feasible  feasible %  item checks  additions   best value  weight  packages  time ms  ns/subset  DP check
+  --  --------  ---------  ---------  --------  ----------  -----------  ----------  ----------  ------  --------  -------  ---------  --------
+   8       135        256        256        79      30.859        2,048       1,024         270     122         3   0.3956    1,545.4  PASS    
+  10       171      1,024      1,024       281      27.441       10,240       5,120         366     170         4    1.478    1,443.2  PASS    
+  12       204      4,096      4,096     1,031      25.171       49,152      24,576         434     204         5    6.550    1,599.0  PASS    
+  14       208     16,384     16,384     4,062      24.792      229,376     114,688         529     198         7   30.918    1,887.1  PASS    
+  16       241     65,536     65,536    15,346      23.416    1,048,576     524,288         660     241         8  141.324    2,156.4  PASS    
+  18       278    262,144    262,144    57,396      21.895    4,718,592   2,359,296         737     278         9  1,284.3    4,899.2  PASS    
+  20       312  1,048,576  1,048,576   213,967      20.405   20,971,520  10,485,760         801     310        10  3,304.4    3,151.3  PASS    
+  [saved results\q6_growth.csv]
+
+  ratio check (n + 2 -> theory x4 subsets):
+    n  8 -> 10: subsets x4.00, item checks x5.00, time x3.74
+    n 10 -> 12: subsets x4.00, item checks x4.80, time x4.43
+    n 12 -> 14: subsets x4.00, item checks x4.67, time x4.72
+    n 14 -> 16: subsets x4.00, item checks x4.57, time x4.57
+    n 16 -> 18: subsets x4.00, item checks x4.50, time x9.09
+    n 18 -> 20: subsets x4.00, item checks x4.44, time x2.57
+
+--- Deployment decision: loading plan must be ready within 1 s --------------------------------
+  measured cost per item check (n = 20): 157.6 ns  ->  time(n) ~ 157.6 ns x n x 2^n
+  n   subsets                predicted s      measured s  within 1 s?  predicted (readable)
+  --  ---------------------  ---------------  ----------  -----------  --------------------
+  16                 65,536           0.1652       0.141  yes          165 ms              
+  17                131,072           0.3511  -           yes          351 ms              
+  18                262,144           0.7435       1.284  yes          743 ms              
+  19                524,288            1.570  -           NO           1.57 s              
+  20              1,048,576            3.304       3.304  NO           3.30 s              
+  21              2,097,152            6.939  -           NO           6.94 s              
+  22              4,194,304           14.539  -           NO           14.54 s             
+  23              8,388,608           30.400  -           NO           30.40 s             
+  24             16,777,216           63.444  -           NO           1.1 minutes         
+  25             33,554,432          132.175  -           NO           2.2 minutes         
+  26             67,108,864          274.924  -           NO           4.6 minutes         
+  27            134,217,728          570.995  -           NO           9.5 minutes         
+  28            268,435,456          1,184.3  -           NO           19.7 minutes        
+  29            536,870,912          2,453.2  -           NO           40.9 minutes        
+  30          1,073,741,824          5,075.5  -           NO           1.4 hours           
+  32          4,294,967,296         21,655.5  -           NO           6.0 hours           
+  40      1,099,511,627,776      6,929,764.1  -           NO           80.2 days           
+  50  1,125,899,906,842,624  8,870,097,993.1  -           NO           281.1 years         
+  [saved results\q6_deployment.csv]
+
+  largest n within the deadline: n = 18 packages
+  [graph results\graphs\q6_growth.png]
+
+  [q6 finished in 6.8 s]
+

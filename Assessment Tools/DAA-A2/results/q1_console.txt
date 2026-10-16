@@ -1,0 +1,111 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q1 Sorting under different data conditions
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:03:49 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Theory written BEFORE running (n = 1000) --------------------------------------------------
+  algorithm  input    comparisons  swaps/shifts  reason                              
+  ---------  -------  -----------  ------------  ------------------------------------
+  Selection  sorted       499,500             0  always scans the whole unsorted part
+  Selection  reverse      499,500           500  same comparisons; ~n/2 swaps        
+  Selection  random       499,500           999  same comparisons; <= n-1 swaps      
+  Bubble     sorted           999             0  1 pass, no swap -> early exit       
+  Bubble     reverse      499,500       499,500  every pair is an inversion          
+  Bubble     random      ~499,500      ~249,750  swaps = inversions ~ n(n-1)/4       
+  Insertion  sorted           999             0  each key compared once, never moves 
+  Insertion  reverse      499,500       499,500  each key moves to the front         
+  Insertion  random      ~250,749      ~249,750  shifts = inversions                 
+
+--- Experiment 1: designed datasets, n = 1000 -------------------------------------------------
+  dataset                   role                        n      inversions  algorithm  comparisons  swaps/shifts  writes   passes  time_ms
+  ------------------------  --------------------------  -----  ----------  ---------  -----------  ------------  -------  ------  -------
+  D1 already sorted         designed pair (best case)   1,000           0  Selection      499,500             0        0     999   24.002
+  D1 already sorted         designed pair (best case)   1,000           0  Bubble             999             0        0       1   0.0572
+  D1 already sorted         designed pair (best case)   1,000           0  Insertion          999             0        0     999   0.0956
+  D2 reverse sorted         designed pair (worst case)  1,000     499,500  Selection      499,500           500    1,000     999   17.922
+  D2 reverse sorted         designed pair (worst case)  1,000     499,500  Bubble         499,500       499,500  999,000     999   65.260
+  D2 reverse sorted         designed pair (worst case)  1,000     499,500  Insertion      499,500       499,500  500,499     999   40.822
+  D3 turtle (min at end)    own edge case               1,000         999  Selection      499,500           999    1,998     999   23.052
+  D3 turtle (min at end)    own edge case               1,000         999  Bubble         499,500           999    1,998     999   31.033
+  D3 turtle (min at end)    own edge case               1,000         999  Insertion        1,997           999    1,000     999   0.1902
+  D4 random order           supporting                  1,000     250,850  Selection      499,500           996    1,992     999   22.130
+  D4 random order           supporting                  1,000     250,850  Bubble         496,497       250,850  501,700     922   43.848
+  D4 random order           supporting                  1,000     250,850  Insertion      251,843       250,850  251,844     999   34.111
+  D5 95% sorted + 5% batch  decision scenario           1,000      24,462  Selection      499,500           952    1,904     999   34.181
+  D5 95% sorted + 5% batch  decision scenario           1,000      24,462  Bubble         496,097        24,462   48,924     917   61.460
+  D5 95% sorted + 5% batch  decision scenario           1,000      24,462  Insertion       25,461        24,462   24,512     999    5.649
+  [saved results\q1_main.csv]
+
+  Check: bubble swaps = insertion shifts = inversions on every dataset -> PASS
+
+--- Experiment 2: growth with n (random, already sorted, 95% sorted + 5% batch) ---------------
+  dataset                n      algorithm  comparisons  swaps/shifts  time_ms
+  ---------------------  -----  ---------  -----------  ------------  -------
+  random                   250  Selection       31,125           244    3.147
+  random                   250  Bubble          31,080        15,662    5.881
+  random                   250  Insertion       15,907        15,662    4.173
+  already sorted           250  Selection       31,125             0    2.841
+  already sorted           250  Bubble             249             0    0.015
+  already sorted           250  Insertion          249             0   0.0799
+  95% sorted + 5% batch    250  Selection       31,125           247    4.798
+  95% sorted + 5% batch    250  Bubble          31,119         1,917    4.393
+  95% sorted + 5% batch    250  Insertion        2,166         1,917   0.4856
+  random                   500  Selection      124,750           494   11.431
+  random                   500  Bubble         124,714        63,100   18.028
+  random                   500  Insertion       63,594        63,100   11.856
+  already sorted           500  Selection      124,750             0    9.294
+  already sorted           500  Bubble             499             0   0.0562
+  already sorted           500  Insertion          499             0   0.1051
+  95% sorted + 5% batch    500  Selection      124,750           481   10.105
+  95% sorted + 5% batch    500  Bubble         124,560         5,869   13.580
+  95% sorted + 5% batch    500  Insertion        6,368         5,869   0.9336
+  random                 1,000  Selection      499,500           989   23.905
+  random                 1,000  Bubble         499,422       247,555   72.589
+  random                 1,000  Insertion      248,548       247,555   43.182
+  already sorted         1,000  Selection      499,500             0   31.788
+  already sorted         1,000  Bubble             999             0   0.0691
+  already sorted         1,000  Insertion          999             0   0.1208
+  95% sorted + 5% batch  1,000  Selection      499,500           978   38.310
+  95% sorted + 5% batch  1,000  Bubble         498,372        25,288   46.346
+  95% sorted + 5% batch  1,000  Insertion       26,287        25,288    3.602
+  random                 2,000  Selection    1,999,000         1,989  113.520
+  random                 2,000  Bubble       1,998,700     1,016,405  200.113
+  random                 2,000  Insertion    1,018,395     1,016,405  145.836
+  already sorted         2,000  Selection    1,999,000             0  110.484
+  already sorted         2,000  Bubble           1,999             0   0.1272
+  already sorted         2,000  Insertion        1,999             0    0.201
+  95% sorted + 5% batch  2,000  Selection    1,999,000         1,987   91.622
+  95% sorted + 5% batch  2,000  Bubble       1,998,649       101,705  154.226
+  95% sorted + 5% batch  2,000  Insertion      103,704       101,705   21.926
+  [saved results\q1_growth.csv]
+
+--- Experiment 3: design decision - sorted orders + new batch of size k, n = 1000 -------------
+  new batch  n      algorithm  comparisons  swaps/shifts  writes   passes  time_ms
+  ---------  -----  ---------  -----------  ------------  -------  ------  -------
+  1%         1,000  Selection      499,500           966    1,932     999   31.749
+  1%         1,000  Bubble         498,797         4,804    9,608     962   33.880
+  1%         1,000  Insertion        5,803         4,804    4,814     999   0.9092
+  2%         1,000  Selection      499,500           997    1,994     999   54.082
+  2%         1,000  Bubble         499,329        10,833   21,666     981   29.223
+  2%         1,000  Insertion       11,831        10,833   10,853     999    1.169
+  5%         1,000  Selection      499,500           979    1,958     999   20.007
+  5%         1,000  Bubble         499,247        25,163   50,326     977   27.135
+  5%         1,000  Insertion       26,162        25,163   25,213     999    2.723
+  10%        1,000  Selection      499,500           986    1,972     999   19.553
+  10%        1,000  Bubble         499,247        48,310   96,620     977   34.348
+  10%        1,000  Insertion       49,309        48,310   48,409     999    6.462
+  20%        1,000  Selection      499,500           993    1,986     999   26.069
+  20%        1,000  Bubble         498,639        92,351  184,702     958   31.294
+  20%        1,000  Insertion       93,350        92,351   92,551     999    8.248
+  50%        1,000  Selection      499,500           989    1,978     999   19.296
+  50%        1,000  Bubble         499,290       176,305  352,610     979   38.430
+  50%        1,000  Insertion      177,304       176,305  176,804     999   33.891
+  [saved results\q1_batch_sweep.csv]
+  [graph results\graphs\q1_comparisons.png]
+  [graph results\graphs\q1_moves.png]
+  [graph results\graphs\q1_growth.png]
+  [graph results\graphs\q1_batch_sweep.png]
+
+  [q1 finished in 20.2 s]
+

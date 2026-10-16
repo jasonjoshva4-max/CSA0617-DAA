@@ -1,0 +1,7 @@
+reg_no,name,lookup_rate,lookups_per_s,n_max_latency,n_max_load,n_max,limited_by
+192511209,Jason Joshva M J,1 per minute,0.016666666666666666,12572,68576898,12572,latency
+192511209,Jason Joshva M J,1 per second,1,12572,1142948,12572,latency
+192511209,Jason Joshva M J,10 per second,10,12572,114294,12572,latency
+192511209,Jason Joshva M J,100 per second,100,12572,11429,11429,load
+192511209,Jason Joshva M J,"1,000 per second",1000,12572,1142,1142,load
+192511209,Jason Joshva M J,"10,000 per second",10000,12572,114,114,load

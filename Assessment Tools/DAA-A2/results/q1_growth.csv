@@ -1,0 +1,37 @@
+reg_no,name,dataset,n,algorithm,comparisons,swaps_or_shifts,time_ms
+192511209,Jason Joshva M J,random,250,Selection,31125,244,3.1468
+192511209,Jason Joshva M J,random,250,Bubble,31080,15662,5.8813
+192511209,Jason Joshva M J,random,250,Insertion,15907,15662,4.1728
+192511209,Jason Joshva M J,already sorted,250,Selection,31125,0,2.8413
+192511209,Jason Joshva M J,already sorted,250,Bubble,249,0,0.015
+192511209,Jason Joshva M J,already sorted,250,Insertion,249,0,0.0799
+192511209,Jason Joshva M J,95% sorted + 5% batch,250,Selection,31125,247,4.7979
+192511209,Jason Joshva M J,95% sorted + 5% batch,250,Bubble,31119,1917,4.3929
+192511209,Jason Joshva M J,95% sorted + 5% batch,250,Insertion,2166,1917,0.4856
+192511209,Jason Joshva M J,random,500,Selection,124750,494,11.4309
+192511209,Jason Joshva M J,random,500,Bubble,124714,63100,18.0278
+192511209,Jason Joshva M J,random,500,Insertion,63594,63100,11.8563
+192511209,Jason Joshva M J,already sorted,500,Selection,124750,0,9.2937
+192511209,Jason Joshva M J,already sorted,500,Bubble,499,0,0.0562
+192511209,Jason Joshva M J,already sorted,500,Insertion,499,0,0.1051
+192511209,Jason Joshva M J,95% sorted + 5% batch,500,Selection,124750,481,10.1055
+192511209,Jason Joshva M J,95% sorted + 5% batch,500,Bubble,124560,5869,13.58
+192511209,Jason Joshva M J,95% sorted + 5% batch,500,Insertion,6368,5869,0.9336
+192511209,Jason Joshva M J,random,1000,Selection,499500,989,23.9055
+192511209,Jason Joshva M J,random,1000,Bubble,499422,247555,72.5888
+192511209,Jason Joshva M J,random,1000,Insertion,248548,247555,43.1823
+192511209,Jason Joshva M J,already sorted,1000,Selection,499500,0,31.7879
+192511209,Jason Joshva M J,already sorted,1000,Bubble,999,0,0.0691
+192511209,Jason Joshva M J,already sorted,1000,Insertion,999,0,0.1208
+192511209,Jason Joshva M J,95% sorted + 5% batch,1000,Selection,499500,978,38.3102
+192511209,Jason Joshva M J,95% sorted + 5% batch,1000,Bubble,498372,25288,46.3463
+192511209,Jason Joshva M J,95% sorted + 5% batch,1000,Insertion,26287,25288,3.6017
+192511209,Jason Joshva M J,random,2000,Selection,1999000,1989,113.5204
+192511209,Jason Joshva M J,random,2000,Bubble,1998700,1016405,200.1129
+192511209,Jason Joshva M J,random,2000,Insertion,1018395,1016405,145.8363
+192511209,Jason Joshva M J,already sorted,2000,Selection,1999000,0,110.4843
+192511209,Jason Joshva M J,already sorted,2000,Bubble,1999,0,0.1272
+192511209,Jason Joshva M J,already sorted,2000,Insertion,1999,0,0.201
+192511209,Jason Joshva M J,95% sorted + 5% batch,2000,Selection,1999000,1987,91.6224
+192511209,Jason Joshva M J,95% sorted + 5% batch,2000,Bubble,1998649,101705,154.2263
+192511209,Jason Joshva M J,95% sorted + 5% batch,2000,Insertion,103704,101705,21.9257

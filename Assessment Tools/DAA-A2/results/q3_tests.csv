@@ -1,0 +1,7 @@
+reg_no,name,test,purpose,n,m,pattern,windows,matches,predicted_frequency_model,predicted_structure_aware,observed_comparisons,comparisons_per_window,worst_case_bound,percent_of_worst
+192511209,Jason Joshva M J,T1,little work: rare first character in a normal log,60000,14,<script>alert(,59987,3,59993,-,60029,1.0007001516995349,839818,7.1478582264252495
+192511209,Jason Joshva M J,T2,"engineered worst case: text AAAA..., pattern AAA...AB",60000,14,AAAAAAAAAAAAAB,59987,0,839818,839818,839818,14.0,839818,100.0
+192511209,Jason Joshva M J,T3,own test: NOP-sled signature in a packet hex dump (long runs of '90 '),60000,29,90 90 90 90 90 90 90 90 3...,59972,10,68385,185516,190615,3.1783999199626494,1739188,10.959999724009135
+192511209,Jason Joshva M J,S1,"near-miss prefix: attack log, 60% 'Failed password for invalid user'",60000,24,Failed password for root,59977,5,60335,66972,66972,1.1166280407489537,1439448,4.652616836453974
+192511209,Jason Joshva M J,S2,"same pattern, normal log (3% failed logins) for contrast",60000,24,Failed password for root,59977,8,59998,60421,60421,1.0074028377544726,1439448,4.197511823976969
+192511209,Jason Joshva M J,S3,"same n and m as T2, but random A-Z text",60000,14,WNHMKYBNCTXIUT,59987,0,62411,-,62406,1.040325403837498,839818,7.430895741696415

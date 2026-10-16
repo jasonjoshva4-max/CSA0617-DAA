@@ -1,0 +1,3 @@
+reg_no,name,scenario,records,lookups_per_hour,avg_comparisons_per_lookup,worst_comparisons,comparisons_per_hour,worst_case_ms,cpu_seconds_per_hour,cpu_percent
+192511209,Jason Joshva M J,1 hangar,300,120,165,300,19800,0.023861733000012462,0.0015748743780008225,4.374651050002285e-05
+192511209,Jason Joshva M J,"20 facilities, one list",6000,2400,3300,6000,7920000,0.4772346600002493,0.629949751200329,0.01749860420000914

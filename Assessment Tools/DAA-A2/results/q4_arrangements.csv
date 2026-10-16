@@ -1,0 +1,4 @@
+reg_no,name,arrangement,n,pairs_examined,distance_calculations,closest_distance_m,time_ms
+192511209,Jason Joshva M J,uniform,1000,499500,499500,7.57,78.77483333322743
+192511209,Jason Joshva M J,clustered (5 depots),1000,499500,499500,1.41,59.209774999999354
+192511209,Jason Joshva M J,one corridor,1000,499500,499500,0.0,55.141625000032946

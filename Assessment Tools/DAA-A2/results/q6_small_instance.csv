@@ -1,0 +1,17 @@
+reg_no,name,mask_P1_to_P4,packages,weight,value,feasible,best_so_far
+192511209,Jason Joshva M J,0000,{},0,0,yes,0
+192511209,Jason Joshva M J,1000,{P1},20,90,yes,90
+192511209,Jason Joshva M J,0100,{P2},25,70,yes,90
+192511209,Jason Joshva M J,1100,"{P1,P2}",45,160,yes,160
+192511209,Jason Joshva M J,0010,{P3},15,50,yes,160
+192511209,Jason Joshva M J,1010,"{P1,P3}",35,140,yes,160
+192511209,Jason Joshva M J,0110,"{P2,P3}",40,120,yes,160
+192511209,Jason Joshva M J,1110,"{P1,P2,P3}",60,210,no,160
+192511209,Jason Joshva M J,0001,{P4},30,80,yes,160
+192511209,Jason Joshva M J,1001,"{P1,P4}",50,170,yes,170
+192511209,Jason Joshva M J,0101,"{P2,P4}",55,150,no,170
+192511209,Jason Joshva M J,1101,"{P1,P2,P4}",75,240,no,170
+192511209,Jason Joshva M J,0011,"{P3,P4}",45,130,yes,170
+192511209,Jason Joshva M J,1011,"{P1,P3,P4}",65,220,no,170
+192511209,Jason Joshva M J,0111,"{P2,P3,P4}",70,200,no,170
+192511209,Jason Joshva M J,1111,"{P1,P2,P3,P4}",90,290,no,170

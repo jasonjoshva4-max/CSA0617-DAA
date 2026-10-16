@@ -1,0 +1,5 @@
+reg_no,name,test,stations,distinct,pairs,orientation_tests,accepted_edges,hull_corners,boundary_stations,interior_stations,check
+192511209,Jason Joshva M J,A random,30,30,435,12180,9,9,9,21,PASS
+192511209,Jason Joshva M J,B challenge,22,20,190,3420,5,5,12,8,PASS
+192511209,Jason Joshva M J,C collinear,12,12,66,660,1,2,12,0,PASS
+192511209,Jason Joshva M J,B with naive rule,22,20,-,-,24,-,-,-,FAIL

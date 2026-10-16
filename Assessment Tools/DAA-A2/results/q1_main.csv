@@ -1,0 +1,16 @@
+reg_no,name,dataset,role,n,inversions,algorithm,comparisons,swaps_or_shifts,writes,passes,time_ms
+192511209,Jason Joshva M J,D1 already sorted,designed pair (best case),1000,0,Selection,499500,0,0,999,24.0021
+192511209,Jason Joshva M J,D1 already sorted,designed pair (best case),1000,0,Bubble,999,0,0,1,0.0572
+192511209,Jason Joshva M J,D1 already sorted,designed pair (best case),1000,0,Insertion,999,0,0,999,0.0956
+192511209,Jason Joshva M J,D2 reverse sorted,designed pair (worst case),1000,499500,Selection,499500,500,1000,999,17.9221
+192511209,Jason Joshva M J,D2 reverse sorted,designed pair (worst case),1000,499500,Bubble,499500,499500,999000,999,65.2597
+192511209,Jason Joshva M J,D2 reverse sorted,designed pair (worst case),1000,499500,Insertion,499500,499500,500499,999,40.8222
+192511209,Jason Joshva M J,D3 turtle (min at end),own edge case,1000,999,Selection,499500,999,1998,999,23.0517
+192511209,Jason Joshva M J,D3 turtle (min at end),own edge case,1000,999,Bubble,499500,999,1998,999,31.0328
+192511209,Jason Joshva M J,D3 turtle (min at end),own edge case,1000,999,Insertion,1997,999,1000,999,0.1902
+192511209,Jason Joshva M J,D4 random order,supporting,1000,250850,Selection,499500,996,1992,999,22.1298
+192511209,Jason Joshva M J,D4 random order,supporting,1000,250850,Bubble,496497,250850,501700,922,43.8476
+192511209,Jason Joshva M J,D4 random order,supporting,1000,250850,Insertion,251843,250850,251844,999,34.1111
+192511209,Jason Joshva M J,D5 95% sorted + 5% batch,decision scenario,1000,24462,Selection,499500,952,1904,999,34.1808
+192511209,Jason Joshva M J,D5 95% sorted + 5% batch,decision scenario,1000,24462,Bubble,496097,24462,48924,917,61.4598
+192511209,Jason Joshva M J,D5 95% sorted + 5% batch,decision scenario,1000,24462,Insertion,25461,24462,24512,999,5.6495

@@ -1,0 +1,4 @@
+reg_no,name,alphabet_size,letters,windows,theory_per_window,observed_per_window,observed_comparisons,matches
+192511209,Jason Joshva M J,2,AB,59987,1.9998779296875,2.0006834814209746,120015,6
+192511209,Jason Joshva M J,4,ABCD,59987,1.3333333283662796,1.3339723606781468,80021,0
+192511209,Jason Joshva M J,26,A-Z,59987,1.04,1.0398586360378081,62378,0

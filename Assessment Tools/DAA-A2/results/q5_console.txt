@@ -1,0 +1,61 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q5 Brute-force convex hull - wildlife reserve boundary
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:20:19 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Test configurations -----------------------------------------------------------------------
+
+  Test A: 30 random stations (boundary and interior points)
+    stations 30 (distinct 30), pairs examined 435, orientation tests 12,180, accepted edges 9
+    hull corners (9, counter-clockwise): [(9825, 1851), (17703, 2757), (18350, 6372), (19229, 11337), (15851, 13339), (4657, 14835), (1984, 11655), (1330, 3782), (1212, 1538)]
+    stations on the boundary: 9  (corners + stations lying on an edge)
+    interior stations: 21   check against monotone chain: PASS
+
+  Test B (designed challenge): rectangle with stations on the fence, duplicates, an interior collinear line, one station 1 m outside
+    stations 22 (distinct 20), pairs examined 190, orientation tests 3,420, accepted edges 5
+    hull corners (5, counter-clockwise): [(12000, 0), (12001, 6000), (12000, 8000), (0, 8000), (0, 0)]
+    stations on the boundary: 12  (corners + stations lying on an edge)
+    interior stations: 8   check against monotone chain: PASS
+
+  Test C (degenerate): all 12 stations along a straight river bank
+    stations 12 (distinct 12), pairs examined 66, orientation tests 660, accepted edges 1
+    hull corners (2, counter-clockwise): [(1000, 2000), (17500, 13000)]
+    stations on the boundary: 12  (corners + stations lying on an edge)
+    interior stations: 0   check against monotone chain: PASS
+
+  Same test B with the naive rule (collinear points ignored): 24 edges accepted instead of 5 -> boundary FAILS: accepted edges do not form a single closed boundary (vertex degrees [2, 3, 4, 5, 6, 7])
+
+--- Edge cases --------------------------------------------------------------------------------
+  case                     input  distinct  pairs  tests  corners  hull                            check
+  -----------------------  -----  --------  -----  -----  -------  ------------------------------  -----
+  1 station                    1         1      0      0        1  [(500, 500)]                    PASS 
+  2 stations                   2         2      1      0        2  [(0, 0), (900, 300)]            PASS 
+  3 stations, triangle         3         3      3      3        3  [(900, 0), (400, 700), (0, 0)]  PASS 
+  3 stations, collinear        3         3      3      3        2  [(0, 0), (1000, 1000)]          PASS 
+  4 stations, one inside       4         4      6     12        3  [(900, 0), (400, 700), (0, 0)]  PASS 
+  5 copies of one station      5         1      0      0        1  [(7, 7)]                        PASS 
+  [saved results\q5_tests.csv]
+
+--- Growth: random stations, full test vs early exit ------------------------------------------
+  n    distinct  theory pairs  pairs   theory tests n(n-1)(n-2)/2  tests (full)  tests (early exit)  corners h  time ms  check
+  ---  --------  ------------  ------  --------------------------  ------------  ------------------  ---------  -------  -----
+   10        10            45      45                         360           360                 214          6   0.2388  PASS 
+   20        20           190     190                       3,420         3,420               1,273          8    1.271  PASS 
+   40        40           780     780                      29,640        29,640               9,197         11   11.607  PASS 
+   80        80         3,160   3,160                     246,480       246,480              59,686         12   73.101  PASS 
+  160       160        12,720  12,720                   2,009,760     2,009,760             441,243         18  853.643  PASS 
+  320       320        51,040  51,040                  16,230,720    16,230,720           3,356,617         14  5,077.4  PASS 
+  [saved results\q5_growth.csv]
+
+  ratio check when n doubles (theory: tests about x8):
+    n   10 ->   20: tests x9.50, time x5.32
+    n   20 ->   40: tests x8.67, time x9.13
+    n   40 ->   80: tests x8.32, time x6.30
+    n   80 ->  160: tests x8.15, time x11.68
+    n  160 ->  320: tests x8.08, time x5.95
+  [graph results\graphs\q5_hulls.png]
+  [graph results\graphs\q5_growth.png]
+
+  [q5 finished in 8.6 s]
+

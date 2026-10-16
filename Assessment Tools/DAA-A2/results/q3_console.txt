@@ -1,0 +1,75 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q3 Brute-force string matching - cybersecurity log screening
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:15:57 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Designed tests (prediction printed before each run) ---------------------------------------
+
+  T1: little work: rare first character in a normal log
+    text n = 60,000   pattern m = 14  '<script>alert('   windows n-m+1 = 59,987
+    PREDICTION (character-frequency model) : about 59,993 comparisons  (1.000 per window)
+    OBSERVED                               : 60,029 comparisons (1.001 per window), 3 match(es), positions verified
+
+  T2: engineered worst case: text AAAA..., pattern AAA...AB
+    text n = 60,000   pattern m = 14  'AAAAAAAAAAAAAB'   windows n-m+1 = 59,987
+    PREDICTION (character-frequency model) : about 839,818 comparisons  (14.000 per window)
+    PREDICTION (structure-aware)           : about 839,818 comparisons  = (n-m+1) x m, every window fails at the last character
+    OBSERVED                               : 839,818 comparisons (14.000 per window), 0 match(es), positions verified
+
+  T3: own test: NOP-sled signature in a packet hex dump (long runs of '90 ')
+    text n = 60,000   pattern m = 29  '90 90 90 90 90 90 90 90 31 C0'   windows n-m+1 = 59,972
+    PREDICTION (character-frequency model) : about 68,385 comparisons  (1.140 per window)
+    PREDICTION (structure-aware)           : about 185,516 comparisons  = windows + 5,231 sled positions x 24 matched characters
+    OBSERVED                               : 190,615 comparisons (3.178 per window), 10 match(es), positions verified
+
+  S1: near-miss prefix: attack log, 60% 'Failed password for invalid user'
+    text n = 60,000   pattern m = 24  'Failed password for root'   windows n-m+1 = 59,977
+    PREDICTION (character-frequency model) : about 60,335 comparisons  (1.006 per window)
+    PREDICTION (structure-aware)           : about 66,972 comparisons  = windows + 344 near misses x 20 + 5 hits x 23
+    OBSERVED                               : 66,972 comparisons (1.117 per window), 5 match(es), positions verified
+
+  S2: same pattern, normal log (3% failed logins) for contrast
+    text n = 60,000   pattern m = 24  'Failed password for root'   windows n-m+1 = 59,977
+    PREDICTION (character-frequency model) : about 59,998 comparisons  (1.000 per window)
+    PREDICTION (structure-aware)           : about 60,421 comparisons  = windows + 13 near misses x 20 + 8 hits x 23
+    OBSERVED                               : 60,421 comparisons (1.007 per window), 8 match(es), positions verified
+
+  S3: same n and m as T2, but random A-Z text
+    text n = 60,000   pattern m = 14  'WNHMKYBNCTXIUT'   windows n-m+1 = 59,987
+    PREDICTION (character-frequency model) : about 62,411 comparisons  (1.040 per window)
+    OBSERVED                               : 62,406 comparisons (1.040 per window), 0 match(es), positions verified
+
+  test  n       m   pattern                       windows  matches  pred (freq)  pred (structure)  observed comps  comps/window  worst (n-m+1)m  % of worst
+  ----  ------  --  ----------------------------  -------  -------  -----------  ----------------  --------------  ------------  --------------  ----------
+  T1    60,000  14  <script>alert(                 59,987        3       59,993  -                         60,029         1.001         839,818       7.148
+  T2    60,000  14  AAAAAAAAAAAAAB                 59,987        0      839,818           839,818         839,818        14.000         839,818     100.000
+  T3    60,000  29  90 90 90 90 90 90 90 90 3...   59,972       10       68,385           185,516         190,615         3.178       1,739,188      10.960
+  S1    60,000  24  Failed password for root       59,977        5       60,335            66,972          66,972         1.117       1,439,448       4.653
+  S2    60,000  24  Failed password for root       59,977        8       59,998            60,421          60,421         1.007       1,439,448       4.198
+  S3    60,000  14  WNHMKYBNCTXIUT                 59,987        0       62,411  -                         62,406         1.040         839,818       7.431
+  [saved results\q3_tests.csv]
+
+--- Sweep 1: worst-case text 'A' x 20,000, pattern 'A'x(m-1)+'B', vary m ----------------------
+  n       m   windows  predicted (n-m+1)m  observed   comps per text char
+  ------  --  -------  ------------------  ---------  -------------------
+  20,000   2   19,999              39,998     39,998                2.000
+  20,000   5   19,996              99,980     99,980                4.999
+  20,000  10   19,991             199,910    199,910                9.995
+  20,000  20   19,981             399,620    399,620               19.981
+  20,000  40   19,961             798,440    798,440               39.922
+  20,000  80   19,921           1,593,680  1,593,680               79.684
+  [saved results\q3_sweep_pattern_length.csv]
+
+--- Sweep 2: random text, n = 60,000, m = 14, vary alphabet size ------------------------------
+  alphabet size  letters  windows  theory per window  observed per window  observed comps  matches
+  -------------  -------  -------  -----------------  -------------------  --------------  -------
+              2  AB        59,987              2.000                2.001         120,015        6
+              4  ABCD      59,987              1.333                1.334          80,021        0
+             26  A-Z       59,987              1.040                1.040          62,378        0
+  [saved results\q3_sweep_alphabet.csv]
+  [graph results\graphs\q3_tests.png]
+  [graph results\graphs\q3_sweeps.png]
+
+  [q3 finished in 2.3 s]
+

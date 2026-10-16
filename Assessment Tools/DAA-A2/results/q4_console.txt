@@ -1,0 +1,68 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q4 Brute-force closest pair - drone collision-risk monitoring
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:17:46 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Correctness: small instance that can be checked by hand -----------------------------------
+  drones: D1(0, 0), D2(3, 4), D3(7, 1), D4(6, 5), D5(2, 9)
+  pair   squared distance  distance
+  -----  ----------------  --------
+  D1-D2                25     5.000
+  D1-D3                50     7.071
+  D1-D4                61     7.810
+  D1-D5                85     9.220
+  D2-D3                25     5.000
+  D2-D4                10     3.162
+  D2-D5                26     5.099
+  D3-D4                17     4.123
+  D3-D5                89     9.434
+  D4-D5                32     5.657
+  algorithm: D2-D4, distance 3.1623, pairs examined 10 (= 5*4/2 = 10)
+  edge case, two drones report the same position: D1-D3, distance 0.0 -> flagged
+  edge case, n = 2: distance 50.0, pairs examined 1
+
+--- Experiment 1: growth with the number of drones (uniform positions) ------------------------
+  n      theory n(n-1)/2  pairs examined  distance calcs  closest pair  distance m  time ms  ns per pair  % pairs avoidable
+  -----  ---------------  --------------  --------------  ------------  ----------  -------  -----------  -----------------
+    125            7,750           7,750           7,750  D2-D6             54.920    1.933      249.463             98.903
+    250           31,125          31,125          31,125  D28-D51           12.480    5.732      184.148             99.708
+    500          124,750         124,750         124,750  D117-D344         18.270   18.455      147.934             99.640
+  1,000          499,500         499,500         499,500  D207-D804          4.540   86.175      172.522             99.909
+  2,000        1,999,000       1,999,000       1,999,000  D1039-D1174        3.060  223.059      111.585             99.938
+  4,000        7,998,000       7,998,000       7,998,000  D1790-D2134        3.650  793.395       99.199             99.927
+  [saved results\q4_growth.csv]
+
+  ratio check when n doubles (theory: pairs about x4):
+    n   125 ->   250: pairs x4.02, time x2.96
+    n   250 ->   500: pairs x4.01, time x3.22
+    n   500 ->  1000: pairs x4.00, time x4.67
+    n  1000 ->  2000: pairs x4.00, time x2.59
+    n  2000 ->  4000: pairs x4.00, time x3.56
+
+--- Experiment 2: same n = 1000, different arrangements (is the work input-sensitive?) --------
+  arrangement           n      pairs examined  distance calcs  closest distance m  time ms
+  --------------------  -----  --------------  --------------  ------------------  -------
+  uniform               1,000         499,500         499,500               7.570   78.775
+  clustered (5 depots)  1,000         499,500         499,500               1.410   59.210
+  one corridor          1,000         499,500         499,500                   0   55.142
+  [saved results\q4_arrangements.csv]
+
+--- Scalability: acceptable response time = 100 ms --------------------------------------------
+  measured time per pair (largest run, n = 4,000) : 99.2 ns
+  n(n-1)/2 x 99.2 ns <= 0.1 s  ->  n_max = about 1,420 drones
+  drones  pairs          predicted ms  within 100 ms?
+  ------  -------------  ------------  --------------
+     500        124,750        12.375  yes           
+   1,000        499,500        49.550  yes           
+   1,420      1,007,490        99.942  yes           
+   2,000      1,999,000       198.299  NO            
+   5,000     12,497,500       1,239.7  NO            
+  10,000     49,995,000       4,959.5  NO            
+  50,000  1,249,975,000     123,996.5  NO            
+  [saved results\q4_boundary.csv]
+  [graph results\graphs\q4_growth.png]
+  [graph results\graphs\q4_drones_n500.png]
+
+  [q4 finished in 4.2 s]
+

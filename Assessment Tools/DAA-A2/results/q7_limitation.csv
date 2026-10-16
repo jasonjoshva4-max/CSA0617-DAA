@@ -1,0 +1,13 @@
+reg_no,name,instance_class,n,median_nodes,max_nodes,instances_hitting_cap,max_time_ms,dp_check
+192511209,Jason Joshva M J,uncorrelated,10,46,49,0,0.06889999713166617,PASS
+192511209,Jason Joshva M J,uncorrelated,20,54,88,0,0.06489999941550195,PASS
+192511209,Jason Joshva M J,uncorrelated,30,74,120,0,0.13620000027003698,PASS
+192511209,Jason Joshva M J,uncorrelated,40,191,682,0,0.3921000025002286,PASS
+192511209,Jason Joshva M J,uncorrelated,50,182,269,0,0.5603999998129439,PASS
+192511209,Jason Joshva M J,uncorrelated,60,161,255,0,0.4353000003902707,PASS
+192511209,Jason Joshva M J,strongly correlated,10,67,179,0,0.09379999755765311,PASS
+192511209,Jason Joshva M J,strongly correlated,20,241,1837,0,1.220999998622574,PASS
+192511209,Jason Joshva M J,strongly correlated,30,2044,35315,0,17.564199999469565,PASS
+192511209,Jason Joshva M J,strongly correlated,40,4487,194407,0,97.77259999827947,PASS
+192511209,Jason Joshva M J,strongly correlated,50,2344,658227,0,392.3088000010466,PASS
+192511209,Jason Joshva M J,strongly correlated,60,37296,2000001,1,1083.5584999986168,PASS

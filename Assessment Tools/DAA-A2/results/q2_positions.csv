@@ -1,0 +1,9 @@
+reg_no,name,search,position,predicted_comparisons,observed_comparisons
+192511209,Jason Joshva M J,successful - first,1,1,1
+192511209,Jason Joshva M J,successful - 25%,250,250,250
+192511209,Jason Joshva M J,successful - middle,500,500,500
+192511209,Jason Joshva M J,successful - 75%,750,750,750
+192511209,Jason Joshva M J,successful - last,1000,1000,1000
+192511209,Jason Joshva M J,unsuccessful (T-32243),-,1000,1000
+192511209,Jason Joshva M J,unsuccessful (T-22896),-,1000,1000
+192511209,Jason Joshva M J,unsuccessful (T-40730),-,1000,1000

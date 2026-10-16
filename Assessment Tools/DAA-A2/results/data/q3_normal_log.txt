@@ -1,0 +1,667 @@
+2026-10-16 08:00:00 gw01 sshd[2319]: Failed password for invalid user guest from 172.96.48.76 port 44739 ssh2
+2026-10-16 08:00:00 gw01 sshd[8904]: Accepted password for arun from 192.11.129.45 port 64643 ssh2
+2026-10-16 08:00:03 gw01 nginx[2090]: 172.45.253.215 GET /api/orders/94470 200 7633
+2026-10-16 08:00:03 gw01 sshd[4858]: Accepted password for ravi from 172.143.217.39 port 41339 ssh2
+2026-10-16 08:00:06 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:00:06 gw01 sshd[8540]: Accepted password for arun from 172.89.81.38 port 36537 ssh2
+2026-10-16 08:00:08 gw01 nginx[2734]: 172.57.251.180 GET /api/orders/94900 200 2572
+2026-10-16 08:00:08 gw01 sshd[1548]: Accepted password for ravi from 172.142.77.180 port 58795 ssh2
+2026-10-16 08:00:09 gw01 sshd[3233]: Accepted password for meena from 192.226.107.88 port 60211 ssh2
+2026-10-16 08:00:12 gw01 sshd[8183]: Accepted password for arun from 172.120.128.204 port 47566 ssh2
+2026-10-16 08:00:13 gw01 sshd[3027]: Accepted password for priya from 10.192.174.194 port 52642 ssh2
+2026-10-16 08:00:14 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:00:14 gw01 nginx[5821]: 172.89.237.68 GET /api/orders/56943 200 512
+2026-10-16 08:00:14 gw01 sshd[5030]: Accepted password for arun from 172.199.35.65 port 64911 ssh2
+2026-10-16 08:00:15 gw01 nginx[4794]: 192.179.15.101 GET /api/orders/14481 200 7212
+2026-10-16 08:00:17 gw01 nginx[6609]: 172.249.86.165 GET /api/orders/7921 200 2012
+2026-10-16 08:00:17 gw01 sshd[9308]: Accepted password for meena from 192.208.17.25 port 44206 ssh2
+2026-10-16 08:00:20 gw01 nginx[5758]: 192.89.24.72 GET /api/orders/6889 200 8368
+2026-10-16 08:00:20 gw01 sshd[1370]: Accepted password for arun from 172.172.3.5 port 43980 ssh2
+2026-10-16 08:00:23 gw01 sshd[5536]: Accepted password for priya from 192.215.207.87 port 39356 ssh2
+2026-10-16 08:00:26 gw01 sshd[8146]: Accepted password for carol from 192.42.140.158 port 55399 ssh2
+2026-10-16 08:00:27 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:00:28 gw01 sshd[1326]: Accepted password for carol from 192.22.224.48 port 45925 ssh2
+2026-10-16 08:00:30 gw01 nginx[4971]: 10.37.201.161 GET /api/orders/60583 200 6619
+2026-10-16 08:00:33 gw01 sshd[1516]: Accepted password for meena from 192.233.206.1 port 51487 ssh2
+2026-10-16 08:00:36 gw01 sshd[3283]: Accepted password for priya from 10.230.32.84 port 53004 ssh2
+2026-10-16 08:00:37 gw01 sshd[6623]: Accepted password for priya from 10.73.95.24 port 59007 ssh2
+2026-10-16 08:00:40 gw01 sshd[6919]: Failed password for root from 10.178.160.136 port 57523 ssh2
+2026-10-16 08:00:42 gw01 sshd[2968]: Accepted password for ravi from 172.255.174.86 port 43897 ssh2
+2026-10-16 08:00:43 gw01 nginx[7483]: 10.41.204.56 GET /api/orders/18177 200 7026
+2026-10-16 08:00:45 gw01 sshd[9260]: Accepted password for meena from 10.205.70.184 port 38261 ssh2
+2026-10-16 08:00:46 gw01 sshd[2945]: Accepted password for priya from 172.138.28.93 port 35695 ssh2
+2026-10-16 08:00:47 gw01 sshd[6492]: Accepted password for ravi from 172.73.10.33 port 56699 ssh2
+2026-10-16 08:00:50 gw01 nginx[3282]: 10.246.141.233 GET /api/orders/35296 200 6352
+2026-10-16 08:00:53 gw01 nginx[6795]: 172.15.231.109 GET /api/orders/51351 200 1963
+2026-10-16 08:00:56 gw01 sshd[5694]: Accepted password for ravi from 192.164.182.96 port 56456 ssh2
+2026-10-16 08:00:56 gw01 sshd[8133]: Accepted password for carol from 10.66.246.124 port 34042 ssh2
+2026-10-16 08:00:56 gw01 nginx[9702]: 10.89.108.23 GET /api/orders/5707 200 4353
+2026-10-16 08:00:58 gw01 sshd[4874]: Accepted password for ravi from 192.161.98.216 port 44470 ssh2
+2026-10-16 08:00:58 gw01 sshd[5598]: Accepted password for priya from 10.206.118.206 port 41866 ssh2
+2026-10-16 08:00:59 gw01 sshd[2199]: Accepted password for arun from 192.119.65.125 port 42248 ssh2
+2026-10-16 08:00:59 gw01 sshd[2859]: Accepted password for ravi from 192.207.149.110 port 41176 ssh2
+2026-10-16 08:01:02 gw01 nginx[4606]: 10.31.245.119 GET /api/orders/25463 200 8867
+2026-10-16 08:01:03 gw01 sshd[4895]: Accepted password for meena from 172.146.120.202 port 52677 ssh2
+2026-10-16 08:01:06 gw01 sshd[1017]: Accepted password for arun from 172.53.226.154 port 42656 ssh2
+2026-10-16 08:01:09 gw01 nginx[3422]: 172.161.188.44 GET /api/orders/42505 200 7230
+2026-10-16 08:01:09 gw01 sshd[3828]: Accepted password for deepak from 172.93.1.73 port 57223 ssh2
+2026-10-16 08:01:12 gw01 sshd[7243]: Accepted password for carol from 172.41.220.61 port 35095 ssh2
+2026-10-16 08:01:14 gw01 nginx[4088]: 192.175.235.184 GET /api/orders/30425 200 3433
+2026-10-16 08:01:16 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:01:17 gw01 sshd[6252]: Accepted password for ravi from 192.226.231.215 port 60638 ssh2
+2026-10-16 08:01:19 gw01 nginx[2957]: 192.10.138.29 GET /api/orders/76392 200 6873
+2026-10-16 08:01:20 gw01 nginx[7544]: 10.79.174.241 GET /api/orders/83104 200 1794
+2026-10-16 08:01:23 gw01 sshd[8877]: Accepted password for carol from 192.184.79.78 port 41019 ssh2
+2026-10-16 08:01:23 gw01 nginx[7604]: 10.127.13.149 GET /api/orders/38939 200 1377
+2026-10-16 08:01:26 gw01 sshd[4595]: Accepted password for deepak from 10.146.75.166 port 34109 ssh2
+2026-10-16 08:01:26 gw01 sshd[1503]: Accepted password for arun from 10.176.12.68 port 37580 ssh2
+2026-10-16 08:01:27 gw01 nginx[6234]: 10.161.229.227 GET /api/orders/69021 200 1282
+2026-10-16 08:01:29 gw01 nginx[2748]: 172.143.232.200 GET /api/orders/68603 200 6884
+2026-10-16 08:01:29 gw01 sshd[8147]: Accepted password for carol from 192.255.90.155 port 48585 ssh2
+2026-10-16 08:01:29 gw01 nginx[4307]: 172.181.184.182 GET /api/orders/92200 200 7596
+2026-10-16 08:01:30 gw01 nginx[4386]: 172.65.143.252 GET /api/orders/52793 200 8691
+2026-10-16 08:01:33 gw01 cron[4999]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:01:35 gw01 sshd[9348]: Accepted password for bob from 192.54.100.198 port 33176 ssh2
+2026-10-16 08:01:35 gw01 sshd[6422]: Accepted password for ravi from 10.140.17.75 port 53010 ssh2
+2026-10-16 08:01:38 gw01 sshd[7370]: Failed password for invalid user admin from 172.176.181.206 port 44328 ssh2
+2026-10-16 08:01:38 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:01:39 gw01 sshd[8786]: Failed password for invalid user pi from 10.137.70.193 port 43194 ssh2
+2026-10-16 08:01:41 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:01:44 gw01 nginx[7958]: 192.84.68.137 GET /api/orders/47526 200 6262
+2026-10-16 08:01:47 gw01 sshd[4109]: Accepted password for priya from 172.81.173.95 port 38312 ssh2
+2026-10-16 08:01:47 gw01 sshd[5219]: Accepted password for arun from 172.79.8.187 port 46793 ssh2
+2026-10-16 08:01:49 gw01 sshd[4115]: Accepted password for ravi from 10.81.47.112 port 53017 ssh2
+2026-10-16 08:01:49 gw01 nginx[9493]: 192.231.26.112 GET /api/orders/89933 200 3648
+2026-10-16 08:01:51 gw01 sshd[6773]: Accepted password for deepak from 172.158.245.92 port 47553 ssh2
+2026-10-16 08:01:51 gw01 nginx[6485]: 10.8.195.15 GET /api/orders/89646 200 3001
+2026-10-16 08:01:52 gw01 sshd[8557]: Accepted password for deepak from 172.95.91.184 port 56447 ssh2
+2026-10-16 08:01:54 gw01 sshd[3762]: Accepted password for carol from 192.90.68.67 port 41740 ssh2
+2026-10-16 08:01:54 gw01 nginx[1464]: 10.205.103.25 GET /api/orders/61818 200 5874
+2026-10-16 08:01:54 gw01 sshd[3491]: Accepted password for priya from 192.19.32.32 port 30749 ssh2
+2026-10-16 08:01:54 gw01 sshd[8529]: Accepted password for deepak from 10.46.10.191 port 53093 ssh2
+2026-10-16 08:01:57 gw01 nginx[4284]: 172.51.90.74 GET /api/orders/28800 200 6011
+2026-10-16 08:01:58 gw01 nginx[4867]: 192.178.157.63 GET /api/orders/11033 200 7383
+2026-10-16 08:02:00 gw01 sshd[5801]: Accepted password for deepak from 10.83.92.152 port 47668 ssh2
+2026-10-16 08:02:00 gw01 nginx[1514]: 10.247.85.197 GET /api/orders/59367 200 3674
+2026-10-16 08:02:03 gw01 sshd[6247]: Accepted password for alice from 10.124.135.41 port 60552 ssh2
+2026-10-16 08:02:04 gw01 sshd[7865]: Accepted password for ravi from 10.75.131.190 port 30407 ssh2
+2026-10-16 08:02:06 gw01 nginx[4046]: 10.186.189.172 GET /api/orders/88870 200 8922
+2026-10-16 08:02:06 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:02:08 gw01 nginx[3268]: 10.148.9.127 GET /api/orders/41713 200 2610
+2026-10-16 08:02:09 gw01 sshd[3723]: Accepted password for arun from 192.23.127.198 port 58766 ssh2
+2026-10-16 08:02:09 gw01 sshd[8981]: Accepted password for alice from 10.19.135.252 port 48689 ssh2
+2026-10-16 08:02:09 gw01 nginx[3911]: 192.131.23.191 GET /api/orders/10136 200 6088
+2026-10-16 08:02:09 gw01 nginx[1448]: 10.97.104.242 GET /api/orders/91186 200 6854
+2026-10-16 08:02:10 gw01 nginx[3152]: 172.135.90.57 GET /api/orders/80763 200 6138
+2026-10-16 08:02:11 gw01 sshd[4277]: Accepted password for bob from 172.137.250.65 port 59501 ssh2
+2026-10-16 08:02:11 gw01 nginx[2608]: 10.155.236.192 GET /search?q=<script>alert(1)</script> 403 0
+2026-10-16 08:02:11 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:02:13 gw01 sshd[4132]: Accepted password for deepak from 10.19.233.197 port 57955 ssh2
+2026-10-16 08:02:13 gw01 sshd[4079]: Accepted password for alice from 192.228.207.194 port 54791 ssh2
+2026-10-16 08:02:16 gw01 sshd[6448]: Accepted password for deepak from 10.211.36.178 port 36921 ssh2
+2026-10-16 08:02:16 gw01 sshd[3197]: Accepted password for deepak from 192.16.203.188 port 31301 ssh2
+2026-10-16 08:02:17 gw01 nginx[5396]: 172.55.106.231 GET /api/orders/26420 200 7566
+2026-10-16 08:02:19 gw01 sshd[2899]: Accepted password for priya from 172.212.80.34 port 50475 ssh2
+2026-10-16 08:02:20 gw01 sshd[6320]: Accepted password for ravi from 172.250.69.47 port 64430 ssh2
+2026-10-16 08:02:23 gw01 sshd[6191]: Accepted password for arun from 172.133.76.126 port 55420 ssh2
+2026-10-16 08:02:23 gw01 sshd[3266]: Accepted password for carol from 172.174.175.22 port 40901 ssh2
+2026-10-16 08:02:24 gw01 sshd[3103]: Accepted password for deepak from 172.171.184.146 port 52116 ssh2
+2026-10-16 08:02:27 gw01 sshd[7578]: Accepted password for alice from 192.59.34.34 port 43651 ssh2
+2026-10-16 08:02:27 gw01 sshd[6751]: Accepted password for bob from 10.147.101.106 port 45320 ssh2
+2026-10-16 08:02:29 gw01 sshd[8668]: Accepted password for alice from 172.168.69.13 port 39135 ssh2
+2026-10-16 08:02:29 gw01 sshd[2755]: Accepted password for carol from 192.134.134.33 port 48739 ssh2
+2026-10-16 08:02:31 gw01 sshd[5686]: Accepted password for arun from 192.224.109.144 port 38225 ssh2
+2026-10-16 08:02:33 gw01 nginx[2857]: 192.96.159.211 GET /api/orders/39097 200 1046
+2026-10-16 08:02:36 gw01 nginx[8415]: 172.152.140.172 GET /api/orders/3066 200 6293
+2026-10-16 08:02:37 gw01 cron[6932]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:02:38 gw01 cron[4260]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:02:38 gw01 cron[5385]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:02:39 gw01 nginx[7047]: 172.245.96.80 GET /api/orders/8944 200 3794
+2026-10-16 08:02:41 gw01 sshd[7715]: Accepted password for bob from 172.26.254.92 port 40421 ssh2
+2026-10-16 08:02:42 gw01 sshd[7426]: Accepted password for bob from 172.204.246.199 port 31940 ssh2
+2026-10-16 08:02:45 gw01 sshd[1379]: Accepted password for priya from 10.225.79.164 port 61622 ssh2
+2026-10-16 08:02:48 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:02:50 gw01 cron[3179]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:02:50 gw01 sshd[9486]: Accepted password for meena from 10.168.166.192 port 47996 ssh2
+2026-10-16 08:02:53 gw01 sshd[2208]: Accepted password for priya from 192.190.14.253 port 32401 ssh2
+2026-10-16 08:02:54 gw01 sshd[5612]: Accepted password for bob from 192.16.235.191 port 56332 ssh2
+2026-10-16 08:02:54 gw01 sshd[8407]: Accepted password for priya from 192.217.104.136 port 45762 ssh2
+2026-10-16 08:02:54 gw01 sshd[6156]: Failed password for invalid user test from 10.4.64.196 port 30097 ssh2
+2026-10-16 08:02:55 gw01 nginx[9056]: 172.59.71.19 GET /api/orders/24873 200 4249
+2026-10-16 08:02:58 gw01 cron[7619]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:02:59 gw01 sshd[7420]: Accepted password for priya from 192.214.167.178 port 36793 ssh2
+2026-10-16 08:02:59 gw01 nginx[8766]: 192.131.66.182 GET /api/orders/53059 200 8502
+2026-10-16 08:03:02 gw01 nginx[2419]: 192.151.36.251 GET /api/orders/16171 200 1046
+2026-10-16 08:03:03 gw01 sshd[9493]: Accepted password for alice from 172.117.177.247 port 60223 ssh2
+2026-10-16 08:03:03 gw01 sshd[2961]: Accepted password for alice from 192.174.54.44 port 56132 ssh2
+2026-10-16 08:03:03 gw01 nginx[5718]: 192.29.33.242 GET /api/orders/65667 200 2538
+2026-10-16 08:03:04 gw01 sshd[6797]: Accepted password for priya from 192.236.178.139 port 31427 ssh2
+2026-10-16 08:03:04 gw01 sshd[7139]: Failed password for invalid user support from 192.75.36.27 port 60777 ssh2
+2026-10-16 08:03:06 gw01 sshd[8944]: Accepted password for deepak from 172.234.65.219 port 39574 ssh2
+2026-10-16 08:03:08 gw01 sshd[1619]: Accepted password for arun from 10.218.35.204 port 53986 ssh2
+2026-10-16 08:03:11 gw01 nginx[5522]: 10.243.75.94 GET /api/orders/19483 200 5947
+2026-10-16 08:03:14 gw01 sshd[9560]: Accepted password for ravi from 172.137.99.25 port 33452 ssh2
+2026-10-16 08:03:14 gw01 nginx[7128]: 192.230.64.18 GET /api/orders/44250 200 7798
+2026-10-16 08:03:14 gw01 sshd[7847]: Failed password for invalid user admin from 172.7.115.166 port 60053 ssh2
+2026-10-16 08:03:17 gw01 sshd[7314]: Accepted password for bob from 192.156.227.146 port 43216 ssh2
+2026-10-16 08:03:19 gw01 sshd[4029]: Accepted password for ravi from 192.66.67.189 port 50050 ssh2
+2026-10-16 08:03:19 gw01 sshd[8431]: Accepted password for arun from 172.82.9.235 port 59926 ssh2
+2026-10-16 08:03:21 gw01 sshd[1915]: Accepted password for priya from 10.5.129.43 port 37441 ssh2
+2026-10-16 08:03:22 gw01 nginx[6069]: 10.164.76.118 GET /api/orders/18676 200 7129
+2026-10-16 08:03:25 gw01 nginx[3460]: 172.135.222.107 GET /api/orders/1887 200 4980
+2026-10-16 08:03:28 gw01 sshd[2916]: Accepted password for arun from 192.134.222.80 port 34940 ssh2
+2026-10-16 08:03:30 gw01 cron[1467]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:03:31 gw01 sshd[8435]: Accepted password for carol from 10.84.77.136 port 41216 ssh2
+2026-10-16 08:03:33 gw01 sshd[3953]: Accepted password for deepak from 10.169.113.189 port 31065 ssh2
+2026-10-16 08:03:36 gw01 nginx[6631]: 192.20.13.101 GET /api/orders/39315 200 8989
+2026-10-16 08:03:38 gw01 nginx[9150]: 172.28.201.188 GET /api/orders/18259 200 1633
+2026-10-16 08:03:38 gw01 sshd[2186]: Accepted password for alice from 172.148.178.12 port 43753 ssh2
+2026-10-16 08:03:40 gw01 sshd[6937]: Accepted password for alice from 10.66.136.120 port 50206 ssh2
+2026-10-16 08:03:42 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:03:42 gw01 sshd[9396]: Failed password for root from 192.37.180.9 port 59569 ssh2
+2026-10-16 08:03:42 gw01 sshd[4949]: Accepted password for ravi from 172.255.161.56 port 32940 ssh2
+2026-10-16 08:03:42 gw01 sshd[8341]: Accepted password for arun from 172.150.219.136 port 33818 ssh2
+2026-10-16 08:03:43 gw01 nginx[7168]: 192.4.180.180 GET /api/orders/53417 200 4798
+2026-10-16 08:03:45 gw01 sshd[1589]: Accepted password for alice from 172.40.124.169 port 52384 ssh2
+2026-10-16 08:03:45 gw01 cron[7399]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:03:46 gw01 nginx[3506]: 10.249.87.38 GET /api/orders/38045 200 8827
+2026-10-16 08:03:48 gw01 sshd[8468]: Accepted password for meena from 192.251.181.55 port 32729 ssh2
+2026-10-16 08:03:51 gw01 nginx[5171]: 10.167.231.198 GET /api/orders/8546 200 7645
+2026-10-16 08:03:51 gw01 sshd[8242]: Accepted password for deepak from 10.177.125.53 port 45352 ssh2
+2026-10-16 08:03:54 gw01 nginx[4423]: 172.216.142.213 GET /api/orders/77429 200 636
+2026-10-16 08:03:56 gw01 sshd[6166]: Accepted password for deepak from 172.185.104.20 port 35764 ssh2
+2026-10-16 08:03:59 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:04:02 gw01 sshd[8085]: Accepted password for priya from 172.106.50.23 port 32834 ssh2
+2026-10-16 08:04:02 gw01 sshd[7215]: Accepted password for arun from 192.127.132.247 port 47584 ssh2
+2026-10-16 08:04:02 gw01 sshd[6135]: Accepted password for deepak from 10.173.187.195 port 32981 ssh2
+2026-10-16 08:04:04 gw01 cron[1249]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:04:06 gw01 sshd[5724]: Accepted password for alice from 10.124.43.66 port 41424 ssh2
+2026-10-16 08:04:09 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:04:11 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:04:11 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:04:13 gw01 nginx[1269]: 192.140.253.20 GET /api/orders/83125 200 2088
+2026-10-16 08:04:16 gw01 nginx[7315]: 10.159.111.245 GET /api/orders/98531 200 7156
+2026-10-16 08:04:16 gw01 sshd[6849]: Accepted password for alice from 10.125.228.188 port 56759 ssh2
+2026-10-16 08:04:16 gw01 sshd[7065]: Accepted password for deepak from 172.33.236.159 port 40096 ssh2
+2026-10-16 08:04:18 gw01 nginx[7961]: 172.54.183.42 GET /api/orders/35794 200 8082
+2026-10-16 08:04:19 gw01 cron[6621]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:04:22 gw01 sshd[2093]: Accepted password for arun from 172.196.69.135 port 45453 ssh2
+2026-10-16 08:04:25 gw01 sshd[3044]: Accepted password for alice from 10.49.59.99 port 54147 ssh2
+2026-10-16 08:04:28 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:04:31 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:04:34 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:04:34 gw01 sshd[2938]: Accepted password for bob from 192.195.14.220 port 43804 ssh2
+2026-10-16 08:04:35 gw01 nginx[6585]: 172.173.234.84 GET /search?q=<script>alert(1)</script> 403 0
+2026-10-16 08:04:36 gw01 sshd[6504]: Accepted password for meena from 172.84.207.98 port 48101 ssh2
+2026-10-16 08:04:39 gw01 sshd[6804]: Accepted password for priya from 192.222.130.1 port 59170 ssh2
+2026-10-16 08:04:42 gw01 sshd[8921]: Accepted password for deepak from 192.220.254.239 port 59984 ssh2
+2026-10-16 08:04:44 gw01 nginx[2571]: 10.240.194.169 GET /api/orders/9607 200 4456
+2026-10-16 08:04:46 gw01 nginx[7800]: 172.123.16.179 GET /api/orders/15283 200 4413
+2026-10-16 08:04:47 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:04:50 gw01 sshd[9408]: Accepted password for deepak from 10.216.152.106 port 34208 ssh2
+2026-10-16 08:04:52 gw01 sshd[1700]: Accepted password for carol from 10.97.171.76 port 45899 ssh2
+2026-10-16 08:04:54 gw01 sshd[5421]: Failed password for invalid user admin from 192.172.187.215 port 58945 ssh2
+2026-10-16 08:04:54 gw01 sshd[3580]: Accepted password for meena from 192.42.202.183 port 48663 ssh2
+2026-10-16 08:04:57 gw01 nginx[6668]: 10.219.19.213 GET /api/orders/79954 200 6329
+2026-10-16 08:04:59 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:04:59 gw01 nginx[2781]: 172.72.189.93 GET /api/orders/16480 200 2154
+2026-10-16 08:05:01 gw01 sshd[5692]: Accepted password for alice from 10.36.7.217 port 60219 ssh2
+2026-10-16 08:05:04 gw01 sshd[2518]: Accepted password for arun from 10.24.31.162 port 48106 ssh2
+2026-10-16 08:05:04 gw01 nginx[4512]: 192.98.238.16 GET /api/orders/11213 200 1274
+2026-10-16 08:05:07 gw01 sshd[1600]: Accepted password for arun from 172.202.199.40 port 56023 ssh2
+2026-10-16 08:05:07 gw01 sshd[1769]: Accepted password for alice from 172.213.37.149 port 45428 ssh2
+2026-10-16 08:05:08 gw01 cron[7033]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:05:11 gw01 nginx[3902]: 172.237.61.178 GET /api/orders/40640 200 8863
+2026-10-16 08:05:11 gw01 nginx[8436]: 172.240.117.108 GET /api/orders/29377 200 5214
+2026-10-16 08:05:14 gw01 sshd[3376]: Accepted password for carol from 192.168.145.81 port 44753 ssh2
+2026-10-16 08:05:14 gw01 sshd[8446]: Accepted password for meena from 172.39.0.229 port 47349 ssh2
+2026-10-16 08:05:16 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:05:19 gw01 cron[8618]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:05:20 gw01 nginx[9504]: 172.56.117.149 GET /api/orders/99114 200 2748
+2026-10-16 08:05:23 gw01 sshd[6047]: Accepted password for meena from 10.245.122.123 port 31944 ssh2
+2026-10-16 08:05:26 gw01 sshd[5117]: Accepted password for alice from 192.64.140.247 port 58096 ssh2
+2026-10-16 08:05:27 gw01 sshd[4560]: Accepted password for priya from 192.65.115.119 port 34815 ssh2
+2026-10-16 08:05:28 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:05:31 gw01 sshd[8409]: Accepted password for carol from 172.136.98.160 port 39355 ssh2
+2026-10-16 08:05:31 gw01 sshd[2575]: Accepted password for bob from 172.2.211.248 port 43091 ssh2
+2026-10-16 08:05:33 gw01 sshd[8160]: Accepted password for bob from 192.110.187.236 port 44562 ssh2
+2026-10-16 08:05:33 gw01 nginx[5515]: 10.243.82.143 GET /api/orders/29779 200 6377
+2026-10-16 08:05:35 gw01 sshd[1677]: Accepted password for deepak from 192.187.227.131 port 60927 ssh2
+2026-10-16 08:05:36 gw01 sshd[8145]: Accepted password for bob from 172.144.185.182 port 62000 ssh2
+2026-10-16 08:05:36 gw01 sshd[9131]: Accepted password for carol from 192.173.237.152 port 50487 ssh2
+2026-10-16 08:05:39 gw01 sshd[5359]: Accepted password for deepak from 172.139.254.235 port 32968 ssh2
+2026-10-16 08:05:41 gw01 cron[1783]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:05:43 gw01 nginx[1899]: 10.15.204.208 GET /api/orders/51454 200 342
+2026-10-16 08:05:44 gw01 sshd[6061]: Accepted password for meena from 172.94.3.115 port 44578 ssh2
+2026-10-16 08:05:45 gw01 sshd[7071]: Accepted password for alice from 192.144.104.240 port 36759 ssh2
+2026-10-16 08:05:45 gw01 sshd[9331]: Accepted password for bob from 192.157.54.210 port 33646 ssh2
+2026-10-16 08:05:46 gw01 cron[8808]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:05:49 gw01 sshd[4787]: Accepted password for deepak from 172.88.166.145 port 63638 ssh2
+2026-10-16 08:05:51 gw01 sshd[9932]: Accepted password for arun from 192.81.240.24 port 59314 ssh2
+2026-10-16 08:05:54 gw01 nginx[6120]: 10.51.28.22 GET /api/orders/40606 200 7617
+2026-10-16 08:05:54 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:05:54 gw01 sshd[2574]: Accepted password for alice from 10.236.51.236 port 61384 ssh2
+2026-10-16 08:05:55 gw01 nginx[7572]: 192.84.20.88 GET /api/orders/72147 200 4767
+2026-10-16 08:05:56 gw01 sshd[9476]: Accepted password for arun from 10.34.66.73 port 38110 ssh2
+2026-10-16 08:05:59 gw01 nginx[7159]: 172.217.226.29 GET /api/orders/60783 200 4160
+2026-10-16 08:06:00 gw01 sshd[4132]: Accepted password for ravi from 172.196.30.202 port 40629 ssh2
+2026-10-16 08:06:00 gw01 sshd[9523]: Accepted password for bob from 192.152.156.32 port 35953 ssh2
+2026-10-16 08:06:03 gw01 nginx[9436]: 192.128.79.239 GET /api/orders/28292 200 580
+2026-10-16 08:06:06 gw01 sshd[3163]: Accepted password for carol from 172.164.214.1 port 37442 ssh2
+2026-10-16 08:06:07 gw01 sshd[7067]: Accepted password for bob from 192.182.80.246 port 39255 ssh2
+2026-10-16 08:06:10 gw01 sshd[9839]: Accepted password for meena from 10.119.225.102 port 43383 ssh2
+2026-10-16 08:06:11 gw01 sshd[7101]: Accepted password for bob from 172.222.67.7 port 42940 ssh2
+2026-10-16 08:06:14 gw01 sshd[6191]: Accepted password for carol from 10.172.53.148 port 54163 ssh2
+2026-10-16 08:06:16 gw01 sshd[1402]: Accepted password for deepak from 192.223.197.23 port 53004 ssh2
+2026-10-16 08:06:18 gw01 sshd[7084]: Accepted password for arun from 10.62.205.161 port 44785 ssh2
+2026-10-16 08:06:20 gw01 sshd[4546]: Failed password for invalid user guest from 172.212.243.210 port 50670 ssh2
+2026-10-16 08:06:23 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:06:25 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:06:27 gw01 sshd[7740]: Accepted password for carol from 192.189.240.57 port 32378 ssh2
+2026-10-16 08:06:29 gw01 sshd[9604]: Accepted password for arun from 10.96.90.145 port 55453 ssh2
+2026-10-16 08:06:30 gw01 sshd[5724]: Accepted password for alice from 172.0.244.12 port 64420 ssh2
+2026-10-16 08:06:33 gw01 nginx[4638]: 172.115.47.229 GET /api/orders/13303 200 5074
+2026-10-16 08:06:36 gw01 nginx[1962]: 172.239.177.139 GET /api/orders/73775 200 857
+2026-10-16 08:06:36 gw01 nginx[9510]: 172.242.52.150 GET /api/orders/66950 200 8623
+2026-10-16 08:06:38 gw01 sshd[8632]: Accepted password for ravi from 192.183.215.57 port 53117 ssh2
+2026-10-16 08:06:38 gw01 cron[8662]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:06:39 gw01 sshd[2531]: Accepted password for bob from 192.100.113.247 port 51888 ssh2
+2026-10-16 08:06:40 gw01 sshd[2718]: Accepted password for meena from 192.111.17.71 port 38995 ssh2
+2026-10-16 08:06:41 gw01 sshd[2917]: Accepted password for ravi from 172.191.54.156 port 54854 ssh2
+2026-10-16 08:06:43 gw01 sshd[3316]: Accepted password for alice from 192.149.8.157 port 32971 ssh2
+2026-10-16 08:06:43 gw01 nginx[9912]: 10.141.39.120 GET /api/orders/14983 200 779
+2026-10-16 08:06:43 gw01 sshd[8309]: Accepted password for alice from 10.184.57.120 port 34263 ssh2
+2026-10-16 08:06:45 gw01 sshd[5422]: Accepted password for bob from 10.159.12.106 port 37957 ssh2
+2026-10-16 08:06:45 gw01 sshd[5579]: Accepted password for carol from 192.57.139.33 port 58720 ssh2
+2026-10-16 08:06:47 gw01 sshd[5133]: Accepted password for deepak from 192.217.88.238 port 31446 ssh2
+2026-10-16 08:06:50 gw01 sshd[1212]: Accepted password for arun from 172.86.70.31 port 30873 ssh2
+2026-10-16 08:06:50 gw01 sshd[9736]: Accepted password for alice from 192.149.2.10 port 49561 ssh2
+2026-10-16 08:06:53 gw01 sshd[7954]: Accepted password for carol from 10.61.232.14 port 62651 ssh2
+2026-10-16 08:06:56 gw01 nginx[5639]: 192.188.220.219 GET /api/orders/98764 200 4078
+2026-10-16 08:06:58 gw01 sshd[3738]: Accepted password for meena from 192.201.176.63 port 64136 ssh2
+2026-10-16 08:07:00 gw01 nginx[3883]: 10.148.94.152 GET /api/orders/71468 200 6332
+2026-10-16 08:07:02 gw01 nginx[7011]: 10.80.205.180 GET /api/orders/88135 200 8797
+2026-10-16 08:07:04 gw01 nginx[3983]: 172.33.179.204 GET /api/orders/65395 200 5555
+2026-10-16 08:07:05 gw01 nginx[8942]: 10.63.195.7 GET /api/orders/47794 200 5071
+2026-10-16 08:07:05 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:07:07 gw01 sshd[8069]: Accepted password for meena from 172.17.154.100 port 30174 ssh2
+2026-10-16 08:07:10 gw01 sshd[6359]: Accepted password for alice from 192.157.226.85 port 52046 ssh2
+2026-10-16 08:07:10 gw01 sshd[8908]: Accepted password for ravi from 172.223.57.39 port 41419 ssh2
+2026-10-16 08:07:10 gw01 nginx[3301]: 172.158.237.168 GET /api/orders/37511 200 8869
+2026-10-16 08:07:12 gw01 nginx[2793]: 172.181.14.174 GET /search?q=<script>alert(1)</script> 403 0
+2026-10-16 08:07:12 gw01 sshd[5703]: Accepted password for bob from 10.185.144.66 port 59883 ssh2
+2026-10-16 08:07:13 gw01 sshd[8222]: Accepted password for priya from 10.46.3.234 port 37928 ssh2
+2026-10-16 08:07:14 gw01 sshd[4637]: Accepted password for carol from 192.92.237.76 port 47014 ssh2
+2026-10-16 08:07:14 gw01 sshd[9270]: Accepted password for ravi from 172.17.240.224 port 54255 ssh2
+2026-10-16 08:07:14 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:07:14 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:07:15 gw01 sshd[1983]: Accepted password for ravi from 192.247.88.82 port 42001 ssh2
+2026-10-16 08:07:15 gw01 sshd[3674]: Accepted password for ravi from 10.243.221.38 port 39429 ssh2
+2026-10-16 08:07:15 gw01 cron[9078]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:07:18 gw01 nginx[7961]: 192.58.136.242 GET /api/orders/16179 200 7507
+2026-10-16 08:07:19 gw01 sshd[4297]: Accepted password for bob from 192.70.80.214 port 61437 ssh2
+2026-10-16 08:07:19 gw01 nginx[9667]: 192.122.220.238 GET /api/orders/22280 200 1323
+2026-10-16 08:07:22 gw01 nginx[3929]: 172.70.68.116 GET /api/orders/22636 200 8906
+2026-10-16 08:07:25 gw01 sshd[5510]: Accepted password for priya from 172.2.250.101 port 40688 ssh2
+2026-10-16 08:07:27 gw01 sshd[1186]: Accepted password for priya from 192.75.51.220 port 43346 ssh2
+2026-10-16 08:07:28 gw01 nginx[5947]: 192.225.145.209 GET /api/orders/99012 200 4030
+2026-10-16 08:07:28 gw01 sshd[2789]: Accepted password for ravi from 10.194.61.59 port 37837 ssh2
+2026-10-16 08:07:29 gw01 nginx[5686]: 172.250.101.165 GET /api/orders/11962 200 8824
+2026-10-16 08:07:31 gw01 sshd[7703]: Accepted password for arun from 10.57.56.181 port 64652 ssh2
+2026-10-16 08:07:34 gw01 sshd[7603]: Accepted password for carol from 172.216.224.39 port 37399 ssh2
+2026-10-16 08:07:34 gw01 nginx[9478]: 10.176.248.73 GET /api/orders/70705 200 8581
+2026-10-16 08:07:35 gw01 sshd[9087]: Accepted password for deepak from 172.125.74.32 port 31489 ssh2
+2026-10-16 08:07:36 gw01 sshd[9225]: Accepted password for alice from 10.43.44.187 port 31901 ssh2
+2026-10-16 08:07:38 gw01 sshd[7443]: Accepted password for arun from 172.207.231.3 port 60820 ssh2
+2026-10-16 08:07:39 gw01 sshd[4127]: Accepted password for arun from 10.109.176.193 port 42380 ssh2
+2026-10-16 08:07:42 gw01 sshd[1364]: Accepted password for carol from 10.212.106.243 port 51927 ssh2
+2026-10-16 08:07:43 gw01 sshd[5436]: Accepted password for alice from 172.11.96.164 port 31455 ssh2
+2026-10-16 08:07:46 gw01 sshd[9740]: Accepted password for bob from 10.108.213.177 port 30634 ssh2
+2026-10-16 08:07:46 gw01 nginx[4746]: 172.137.8.52 GET /api/orders/36918 200 1177
+2026-10-16 08:07:47 gw01 sshd[2545]: Accepted password for ravi from 10.194.218.199 port 31380 ssh2
+2026-10-16 08:07:48 gw01 nginx[4627]: 172.64.204.33 GET /api/orders/98888 200 6543
+2026-10-16 08:07:49 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:07:52 gw01 sshd[8098]: Accepted password for deepak from 10.171.31.191 port 40866 ssh2
+2026-10-16 08:07:55 gw01 sshd[8865]: Accepted password for alice from 10.212.124.250 port 62569 ssh2
+2026-10-16 08:07:58 gw01 nginx[1896]: 10.124.184.111 GET /api/orders/22712 200 3277
+2026-10-16 08:08:00 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:08:03 gw01 sshd[9605]: Accepted password for priya from 172.35.58.172 port 64590 ssh2
+2026-10-16 08:08:06 gw01 sshd[5864]: Accepted password for bob from 172.41.234.211 port 63492 ssh2
+2026-10-16 08:08:06 gw01 sshd[6867]: Accepted password for bob from 10.11.45.122 port 54323 ssh2
+2026-10-16 08:08:06 gw01 nginx[9025]: 10.138.38.160 GET /api/orders/46391 200 2903
+2026-10-16 08:08:08 gw01 sshd[1571]: Accepted password for alice from 172.134.243.20 port 45899 ssh2
+2026-10-16 08:08:09 gw01 sshd[3217]: Accepted password for meena from 192.31.203.186 port 50511 ssh2
+2026-10-16 08:08:10 gw01 nginx[3894]: 172.12.229.145 GET /api/orders/21444 200 5812
+2026-10-16 08:08:11 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:08:11 gw01 nginx[3310]: 10.77.210.234 GET /api/orders/71962 200 7873
+2026-10-16 08:08:14 gw01 sshd[4710]: Accepted password for arun from 172.217.107.124 port 59317 ssh2
+2026-10-16 08:08:17 gw01 sshd[6619]: Accepted password for priya from 172.25.254.209 port 43968 ssh2
+2026-10-16 08:08:20 gw01 cron[1190]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:08:23 gw01 nginx[8183]: 192.129.143.223 GET /api/orders/10607 200 8143
+2026-10-16 08:08:23 gw01 sshd[8466]: Accepted password for meena from 10.76.139.219 port 34612 ssh2
+2026-10-16 08:08:24 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:08:24 gw01 sshd[2783]: Accepted password for priya from 172.226.96.162 port 50465 ssh2
+2026-10-16 08:08:24 gw01 nginx[8065]: 192.187.123.224 GET /api/orders/91228 200 8023
+2026-10-16 08:08:25 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:08:25 gw01 sshd[7488]: Accepted password for priya from 10.163.181.64 port 56274 ssh2
+2026-10-16 08:08:27 gw01 sshd[2707]: Accepted password for meena from 172.147.217.138 port 31101 ssh2
+2026-10-16 08:08:27 gw01 sshd[7393]: Accepted password for deepak from 192.62.220.194 port 45452 ssh2
+2026-10-16 08:08:28 gw01 cron[3436]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:08:31 gw01 nginx[7474]: 10.47.208.76 GET /api/orders/46385 200 3872
+2026-10-16 08:08:34 gw01 sshd[5462]: Accepted password for deepak from 172.107.133.205 port 42910 ssh2
+2026-10-16 08:08:34 gw01 sshd[3218]: Accepted password for arun from 172.4.229.191 port 30050 ssh2
+2026-10-16 08:08:37 gw01 nginx[9764]: 192.31.205.251 GET /api/orders/3964 200 5746
+2026-10-16 08:08:37 gw01 nginx[5177]: 192.215.237.164 GET /api/orders/83490 200 4632
+2026-10-16 08:08:38 gw01 cron[8793]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:08:38 gw01 sshd[3175]: Failed password for invalid user pi from 192.184.156.227 port 42458 ssh2
+2026-10-16 08:08:40 gw01 sshd[3833]: Accepted password for arun from 172.11.14.176 port 44149 ssh2
+2026-10-16 08:08:41 gw01 sshd[5208]: Accepted password for deepak from 10.154.129.176 port 34145 ssh2
+2026-10-16 08:08:43 gw01 nginx[3603]: 10.41.235.195 GET /api/orders/11365 200 2812
+2026-10-16 08:08:43 gw01 sshd[2041]: Accepted password for priya from 192.112.9.126 port 61181 ssh2
+2026-10-16 08:08:44 gw01 nginx[6500]: 192.158.86.38 GET /api/orders/51766 200 7396
+2026-10-16 08:08:44 gw01 sshd[4304]: Accepted password for meena from 10.30.164.46 port 52835 ssh2
+2026-10-16 08:08:44 gw01 sshd[6691]: Accepted password for arun from 192.142.113.229 port 58888 ssh2
+2026-10-16 08:08:47 gw01 nginx[6438]: 172.47.140.162 GET /api/orders/72720 200 7197
+2026-10-16 08:08:48 gw01 sshd[7373]: Accepted password for deepak from 172.63.181.93 port 59644 ssh2
+2026-10-16 08:08:50 gw01 nginx[4960]: 192.108.144.165 GET /api/orders/57448 200 7832
+2026-10-16 08:08:50 gw01 sshd[4021]: Accepted password for carol from 192.3.80.57 port 47819 ssh2
+2026-10-16 08:08:50 gw01 sshd[3865]: Accepted password for alice from 192.31.11.207 port 39919 ssh2
+2026-10-16 08:08:53 gw01 sshd[8962]: Accepted password for bob from 172.158.164.251 port 40077 ssh2
+2026-10-16 08:08:56 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:08:59 gw01 sshd[2518]: Accepted password for arun from 10.37.152.88 port 37548 ssh2
+2026-10-16 08:09:02 gw01 nginx[4835]: 172.16.131.117 GET /api/orders/40041 200 2291
+2026-10-16 08:09:02 gw01 sshd[3646]: Accepted password for alice from 172.183.113.91 port 34474 ssh2
+2026-10-16 08:09:03 gw01 sshd[4717]: Accepted password for arun from 172.240.100.127 port 52801 ssh2
+2026-10-16 08:09:03 gw01 nginx[3207]: 172.85.109.4 GET /api/orders/96365 200 1075
+2026-10-16 08:09:06 gw01 cron[9199]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:09:06 gw01 sshd[7970]: Accepted password for priya from 10.246.62.28 port 60362 ssh2
+2026-10-16 08:09:06 gw01 sshd[8122]: Accepted password for priya from 192.0.137.73 port 46192 ssh2
+2026-10-16 08:09:08 gw01 cron[8799]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:09:11 gw01 sshd[5334]: Accepted password for deepak from 10.127.159.96 port 51705 ssh2
+2026-10-16 08:09:13 gw01 nginx[7885]: 172.42.38.191 GET /api/orders/66178 200 4194
+2026-10-16 08:09:13 gw01 sshd[7809]: Accepted password for deepak from 172.57.207.244 port 32483 ssh2
+2026-10-16 08:09:14 gw01 sshd[2190]: Accepted password for alice from 192.188.123.254 port 47959 ssh2
+2026-10-16 08:09:14 gw01 sshd[3591]: Accepted password for alice from 192.112.147.22 port 62101 ssh2
+2026-10-16 08:09:15 gw01 nginx[5157]: 10.18.195.73 GET /api/orders/90516 200 3150
+2026-10-16 08:09:15 gw01 sshd[6112]: Accepted password for carol from 192.154.246.52 port 39279 ssh2
+2026-10-16 08:09:17 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:09:18 gw01 nginx[8423]: 10.126.229.240 GET /api/orders/11877 200 8148
+2026-10-16 08:09:20 gw01 sshd[5810]: Accepted password for priya from 10.78.97.137 port 62456 ssh2
+2026-10-16 08:09:23 gw01 sshd[7721]: Accepted password for alice from 172.27.54.78 port 38233 ssh2
+2026-10-16 08:09:24 gw01 nginx[3079]: 10.163.114.192 GET /api/orders/32980 200 7506
+2026-10-16 08:09:24 gw01 nginx[2951]: 192.180.221.74 GET /api/orders/36433 200 3271
+2026-10-16 08:09:25 gw01 sshd[7080]: Accepted password for arun from 10.67.150.145 port 56608 ssh2
+2026-10-16 08:09:28 gw01 nginx[8637]: 10.255.250.4 GET /api/orders/68296 200 5617
+2026-10-16 08:09:29 gw01 nginx[9990]: 10.241.92.172 GET /api/orders/7743 200 5840
+2026-10-16 08:09:31 gw01 sshd[5349]: Accepted password for ravi from 192.163.132.252 port 39851 ssh2
+2026-10-16 08:09:33 gw01 nginx[1642]: 172.131.247.63 GET /api/orders/36047 200 1943
+2026-10-16 08:09:33 gw01 sshd[3743]: Accepted password for bob from 172.90.2.101 port 45145 ssh2
+2026-10-16 08:09:33 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:09:34 gw01 nginx[5284]: 10.199.71.133 GET /api/orders/35227 200 502
+2026-10-16 08:09:35 gw01 nginx[9147]: 10.53.251.21 GET /api/orders/43023 200 3723
+2026-10-16 08:09:38 gw01 nginx[5000]: 172.235.92.56 GET /api/orders/20985 200 5908
+2026-10-16 08:09:40 gw01 nginx[7518]: 10.71.21.231 GET /api/orders/83981 200 4637
+2026-10-16 08:09:42 gw01 nginx[4298]: 172.74.64.30 GET /api/orders/75873 200 4735
+2026-10-16 08:09:44 gw01 cron[7996]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:09:47 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:09:49 gw01 sshd[1295]: Accepted password for ravi from 172.111.212.20 port 34319 ssh2
+2026-10-16 08:09:51 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:09:52 gw01 sshd[4787]: Accepted password for priya from 172.177.196.95 port 54096 ssh2
+2026-10-16 08:09:53 gw01 cron[8050]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:09:54 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:09:54 gw01 nginx[3057]: 192.132.2.30 GET /api/orders/47420 200 6707
+2026-10-16 08:09:56 gw01 nginx[7667]: 172.144.67.120 GET /api/orders/14315 200 1597
+2026-10-16 08:09:58 gw01 sshd[8753]: Accepted password for alice from 10.73.154.253 port 31885 ssh2
+2026-10-16 08:09:59 gw01 sshd[2439]: Accepted password for deepak from 10.145.24.157 port 33854 ssh2
+2026-10-16 08:10:00 gw01 sshd[2640]: Accepted password for meena from 192.244.222.3 port 46229 ssh2
+2026-10-16 08:10:02 gw01 nginx[9687]: 172.143.95.133 GET /api/orders/73404 200 3689
+2026-10-16 08:10:03 gw01 cron[7270]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:10:05 gw01 sshd[3558]: Accepted password for arun from 172.87.189.51 port 51087 ssh2
+2026-10-16 08:10:05 gw01 sshd[9151]: Accepted password for ravi from 10.71.16.82 port 48635 ssh2
+2026-10-16 08:10:05 gw01 sshd[1986]: Accepted password for deepak from 172.202.8.45 port 33913 ssh2
+2026-10-16 08:10:07 gw01 sshd[9053]: Accepted password for bob from 192.105.154.87 port 61341 ssh2
+2026-10-16 08:10:08 gw01 sshd[8738]: Accepted password for deepak from 10.9.186.136 port 60896 ssh2
+2026-10-16 08:10:09 gw01 nginx[1114]: 10.159.173.30 GET /api/orders/96452 200 1603
+2026-10-16 08:10:10 gw01 nginx[1460]: 192.23.184.81 GET /api/orders/89169 200 2218
+2026-10-16 08:10:10 gw01 sshd[7632]: Accepted password for carol from 172.183.219.115 port 52305 ssh2
+2026-10-16 08:10:12 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:10:12 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:10:13 gw01 nginx[8227]: 172.59.234.18 GET /api/orders/60186 200 7617
+2026-10-16 08:10:15 gw01 nginx[9304]: 10.248.106.241 GET /api/orders/41409 200 3085
+2026-10-16 08:10:17 gw01 nginx[5305]: 192.16.97.114 GET /api/orders/39773 200 7223
+2026-10-16 08:10:18 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:10:18 gw01 sshd[7077]: Accepted password for alice from 10.226.171.135 port 42789 ssh2
+2026-10-16 08:10:18 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:10:21 gw01 sshd[6897]: Accepted password for meena from 10.216.240.153 port 36353 ssh2
+2026-10-16 08:10:22 gw01 nginx[1252]: 10.55.107.112 GET /api/orders/75485 200 6968
+2026-10-16 08:10:24 gw01 sshd[8536]: Accepted password for bob from 192.15.23.68 port 43649 ssh2
+2026-10-16 08:10:24 gw01 nginx[7121]: 172.196.232.215 GET /api/orders/70018 200 8171
+2026-10-16 08:10:26 gw01 sshd[3081]: Accepted password for arun from 10.159.206.246 port 38116 ssh2
+2026-10-16 08:10:29 gw01 sshd[5235]: Accepted password for arun from 172.163.26.41 port 53442 ssh2
+2026-10-16 08:10:31 gw01 sshd[9257]: Accepted password for ravi from 192.154.69.5 port 56638 ssh2
+2026-10-16 08:10:32 gw01 nginx[4452]: 192.182.109.212 GET /api/orders/30454 200 3376
+2026-10-16 08:10:32 gw01 sshd[9264]: Accepted password for priya from 192.242.31.22 port 55170 ssh2
+2026-10-16 08:10:34 gw01 sshd[8818]: Accepted password for carol from 172.26.181.252 port 51330 ssh2
+2026-10-16 08:10:37 gw01 sshd[4134]: Accepted password for arun from 192.195.183.202 port 60693 ssh2
+2026-10-16 08:10:40 gw01 nginx[8950]: 172.47.13.245 GET /api/orders/81701 200 7523
+2026-10-16 08:10:40 gw01 sshd[3424]: Accepted password for carol from 192.250.67.144 port 53158 ssh2
+2026-10-16 08:10:40 gw01 sshd[5150]: Accepted password for ravi from 192.49.98.155 port 39675 ssh2
+2026-10-16 08:10:41 gw01 sshd[6642]: Accepted password for bob from 10.2.229.87 port 44498 ssh2
+2026-10-16 08:10:41 gw01 cron[7546]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:10:41 gw01 sshd[4897]: Accepted password for deepak from 10.161.127.13 port 53470 ssh2
+2026-10-16 08:10:44 gw01 sshd[8214]: Accepted password for bob from 192.108.189.197 port 60436 ssh2
+2026-10-16 08:10:44 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:10:46 gw01 sshd[8080]: Accepted password for deepak from 192.39.80.158 port 51003 ssh2
+2026-10-16 08:10:46 gw01 sshd[5086]: Accepted password for priya from 10.182.165.77 port 58632 ssh2
+2026-10-16 08:10:47 gw01 sshd[2253]: Accepted password for alice from 10.134.205.211 port 32524 ssh2
+2026-10-16 08:10:47 gw01 sshd[6613]: Accepted password for ravi from 172.66.94.180 port 36833 ssh2
+2026-10-16 08:10:50 gw01 nginx[8691]: 192.170.99.124 GET /api/orders/15167 200 8363
+2026-10-16 08:10:51 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:10:52 gw01 sshd[8581]: Accepted password for bob from 172.242.23.198 port 59761 ssh2
+2026-10-16 08:10:54 gw01 sshd[2458]: Accepted password for arun from 192.51.119.243 port 30473 ssh2
+2026-10-16 08:10:54 gw01 cron[9527]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:10:57 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:10:57 gw01 sshd[7982]: Accepted password for arun from 172.118.56.210 port 35164 ssh2
+2026-10-16 08:11:00 gw01 sshd[1651]: Accepted password for carol from 172.116.152.78 port 63629 ssh2
+2026-10-16 08:11:02 gw01 sshd[4820]: Accepted password for carol from 192.99.54.28 port 49188 ssh2
+2026-10-16 08:11:03 gw01 cron[1544]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:06 gw01 cron[1106]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:07 gw01 nginx[5701]: 192.233.226.93 GET /api/orders/93869 200 5141
+2026-10-16 08:11:10 gw01 sshd[4063]: Accepted password for alice from 10.13.213.187 port 62636 ssh2
+2026-10-16 08:11:13 gw01 sshd[6701]: Failed password for invalid user oracle from 192.120.154.56 port 62728 ssh2
+2026-10-16 08:11:14 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:11:17 gw01 sshd[7252]: Accepted password for alice from 10.226.103.145 port 49772 ssh2
+2026-10-16 08:11:18 gw01 nginx[6341]: 10.125.43.83 GET /api/orders/10771 200 5232
+2026-10-16 08:11:19 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:11:21 gw01 sshd[5513]: Accepted password for bob from 10.233.119.142 port 47172 ssh2
+2026-10-16 08:11:21 gw01 sshd[9032]: Accepted password for alice from 172.238.206.250 port 39906 ssh2
+2026-10-16 08:11:21 gw01 nginx[1001]: 192.185.121.209 GET /api/orders/44744 200 3366
+2026-10-16 08:11:22 gw01 sshd[8142]: Accepted password for arun from 192.216.70.73 port 63263 ssh2
+2026-10-16 08:11:22 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:11:23 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:11:25 gw01 cron[7274]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:27 gw01 sshd[7590]: Accepted password for meena from 192.213.194.233 port 57102 ssh2
+2026-10-16 08:11:29 gw01 nginx[1452]: 172.84.120.151 GET /api/orders/33369 200 1937
+2026-10-16 08:11:30 gw01 sshd[8142]: Accepted password for ravi from 192.154.222.244 port 31508 ssh2
+2026-10-16 08:11:31 gw01 sshd[7889]: Accepted password for carol from 10.238.247.250 port 44138 ssh2
+2026-10-16 08:11:31 gw01 sshd[7543]: Accepted password for meena from 192.55.114.152 port 43130 ssh2
+2026-10-16 08:11:32 gw01 nginx[8503]: 172.203.23.215 GET /api/orders/48494 200 4096
+2026-10-16 08:11:32 gw01 nginx[7468]: 10.10.154.83 GET /api/orders/99620 200 8420
+2026-10-16 08:11:34 gw01 sshd[4490]: Failed password for invalid user pi from 172.182.207.55 port 58671 ssh2
+2026-10-16 08:11:34 gw01 nginx[6554]: 192.125.237.154 GET /api/orders/44587 200 7726
+2026-10-16 08:11:34 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:11:34 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:11:36 gw01 nginx[7009]: 172.8.47.211 GET /api/orders/36283 200 5783
+2026-10-16 08:11:37 gw01 cron[4283]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:40 gw01 nginx[6243]: 10.185.80.60 GET /api/orders/78651 200 6133
+2026-10-16 08:11:43 gw01 sshd[6927]: Accepted password for alice from 192.6.232.145 port 53331 ssh2
+2026-10-16 08:11:43 gw01 cron[4947]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:43 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:11:45 gw01 sshd[4727]: Accepted password for carol from 192.218.142.169 port 58396 ssh2
+2026-10-16 08:11:46 gw01 sshd[8477]: Accepted password for bob from 192.70.51.165 port 60857 ssh2
+2026-10-16 08:11:47 gw01 sshd[6423]: Accepted password for ravi from 172.47.22.214 port 49781 ssh2
+2026-10-16 08:11:48 gw01 sshd[5910]: Accepted password for alice from 192.116.181.170 port 64144 ssh2
+2026-10-16 08:11:48 gw01 sshd[6814]: Accepted password for alice from 10.117.25.61 port 53535 ssh2
+2026-10-16 08:11:49 gw01 sshd[5357]: Accepted password for bob from 192.243.245.31 port 40013 ssh2
+2026-10-16 08:11:51 gw01 sshd[1175]: Accepted password for ravi from 172.12.193.142 port 52390 ssh2
+2026-10-16 08:11:53 gw01 cron[3287]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:11:54 gw01 nginx[9451]: 192.14.208.41 GET /api/orders/11692 200 8231
+2026-10-16 08:11:57 gw01 nginx[5594]: 172.211.234.43 GET /api/orders/41293 200 6852
+2026-10-16 08:12:00 gw01 nginx[6745]: 172.98.230.98 GET /api/orders/35477 200 1832
+2026-10-16 08:12:03 gw01 nginx[8347]: 10.170.139.24 GET /api/orders/1667 200 4182
+2026-10-16 08:12:04 gw01 sshd[9643]: Accepted password for deepak from 10.122.43.1 port 37680 ssh2
+2026-10-16 08:12:07 gw01 nginx[7494]: 10.86.171.22 GET /api/orders/13784 200 7822
+2026-10-16 08:12:08 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:12:10 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:12:10 gw01 sshd[2614]: Accepted password for alice from 10.89.137.189 port 31285 ssh2
+2026-10-16 08:12:11 gw01 sshd[3302]: Accepted password for deepak from 192.246.38.9 port 37537 ssh2
+2026-10-16 08:12:13 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:12:13 gw01 sshd[2424]: Failed password for invalid user ubuntu from 192.71.36.142 port 45055 ssh2
+2026-10-16 08:12:15 gw01 sshd[5145]: Accepted password for deepak from 192.94.30.33 port 30791 ssh2
+2026-10-16 08:12:16 gw01 cron[9048]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:12:19 gw01 sshd[4177]: Accepted password for alice from 10.45.212.30 port 46064 ssh2
+2026-10-16 08:12:19 gw01 sshd[4341]: Accepted password for deepak from 10.13.217.199 port 40719 ssh2
+2026-10-16 08:12:20 gw01 sshd[6175]: Accepted password for carol from 10.26.209.191 port 44660 ssh2
+2026-10-16 08:12:21 gw01 sshd[1422]: Accepted password for meena from 192.154.7.93 port 58875 ssh2
+2026-10-16 08:12:21 gw01 nginx[1694]: 192.232.68.197 GET /api/orders/90566 200 5038
+2026-10-16 08:12:24 gw01 sshd[5985]: Accepted password for deepak from 10.77.94.41 port 32476 ssh2
+2026-10-16 08:12:24 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:12:26 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:12:26 gw01 nginx[1418]: 192.74.190.73 GET /api/orders/95018 200 3311
+2026-10-16 08:12:27 gw01 sshd[5231]: Accepted password for meena from 10.131.245.99 port 30308 ssh2
+2026-10-16 08:12:27 gw01 cron[5813]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:12:30 gw01 cron[3017]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:12:31 gw01 sshd[8918]: Accepted password for meena from 172.1.43.165 port 41153 ssh2
+2026-10-16 08:12:33 gw01 sshd[5627]: Accepted password for deepak from 10.196.83.8 port 39638 ssh2
+2026-10-16 08:12:33 gw01 sshd[6357]: Accepted password for alice from 192.3.172.65 port 42736 ssh2
+2026-10-16 08:12:34 gw01 nginx[8815]: 172.254.56.88 GET /api/orders/87089 200 3588
+2026-10-16 08:12:34 gw01 sshd[6849]: Accepted password for deepak from 172.238.211.156 port 42523 ssh2
+2026-10-16 08:12:34 gw01 nginx[3782]: 192.80.219.187 GET /api/orders/94599 200 8982
+2026-10-16 08:12:37 gw01 nginx[3975]: 10.16.177.135 GET /api/orders/3884 200 2604
+2026-10-16 08:12:37 gw01 nginx[2514]: 192.24.67.208 GET /api/orders/79273 200 8288
+2026-10-16 08:12:39 gw01 nginx[9054]: 10.12.19.38 GET /api/orders/50665 200 1836
+2026-10-16 08:12:42 gw01 nginx[7642]: 172.57.175.246 GET /api/orders/6077 200 1973
+2026-10-16 08:12:43 gw01 sshd[7152]: Accepted password for carol from 192.17.216.131 port 60156 ssh2
+2026-10-16 08:12:45 gw01 sshd[2113]: Accepted password for meena from 10.207.135.106 port 50506 ssh2
+2026-10-16 08:12:46 gw01 sshd[2845]: Accepted password for meena from 192.203.197.108 port 57087 ssh2
+2026-10-16 08:12:49 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:12:50 gw01 sshd[5650]: Accepted password for arun from 172.229.74.185 port 50431 ssh2
+2026-10-16 08:12:53 gw01 sshd[5091]: Accepted password for arun from 10.232.183.148 port 45864 ssh2
+2026-10-16 08:12:55 gw01 sshd[7465]: Accepted password for alice from 10.13.190.14 port 36176 ssh2
+2026-10-16 08:12:57 gw01 sshd[3168]: Accepted password for meena from 192.152.180.16 port 43677 ssh2
+2026-10-16 08:12:58 gw01 nginx[8262]: 10.45.116.54 GET /api/orders/20896 200 340
+2026-10-16 08:12:59 gw01 sshd[4818]: Accepted password for arun from 192.238.106.49 port 59773 ssh2
+2026-10-16 08:12:59 gw01 sshd[9969]: Failed password for root from 10.175.119.17 port 30655 ssh2
+2026-10-16 08:12:59 gw01 sshd[6029]: Accepted password for priya from 192.100.139.90 port 32651 ssh2
+2026-10-16 08:13:02 gw01 nginx[7817]: 10.101.141.76 GET /api/orders/48219 200 2955
+2026-10-16 08:13:04 gw01 sshd[7075]: Failed password for root from 172.252.177.41 port 60814 ssh2
+2026-10-16 08:13:04 gw01 sshd[2585]: Failed password for root from 172.23.70.183 port 31605 ssh2
+2026-10-16 08:13:06 gw01 sshd[7245]: Accepted password for alice from 10.148.123.74 port 64598 ssh2
+2026-10-16 08:13:06 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:13:09 gw01 sshd[5811]: Failed password for root from 10.23.95.206 port 51452 ssh2
+2026-10-16 08:13:10 gw01 sshd[1018]: Accepted password for meena from 172.89.47.15 port 37133 ssh2
+2026-10-16 08:13:11 gw01 sshd[1377]: Accepted password for meena from 192.76.179.235 port 33637 ssh2
+2026-10-16 08:13:13 gw01 sshd[3243]: Accepted password for priya from 10.224.82.246 port 35904 ssh2
+2026-10-16 08:13:13 gw01 sshd[2142]: Accepted password for ravi from 10.14.138.200 port 63278 ssh2
+2026-10-16 08:13:15 gw01 sshd[3387]: Accepted password for carol from 172.221.224.46 port 34341 ssh2
+2026-10-16 08:13:17 gw01 nginx[7458]: 192.48.151.87 GET /api/orders/85714 200 4651
+2026-10-16 08:13:17 gw01 sshd[2497]: Accepted password for arun from 172.250.126.85 port 64907 ssh2
+2026-10-16 08:13:20 gw01 sshd[5161]: Accepted password for bob from 192.160.226.190 port 52793 ssh2
+2026-10-16 08:13:21 gw01 sshd[4856]: Accepted password for carol from 192.114.167.15 port 61394 ssh2
+2026-10-16 08:13:22 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:13:24 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:13:25 gw01 sshd[8186]: Accepted password for meena from 172.141.244.117 port 35874 ssh2
+2026-10-16 08:13:25 gw01 nginx[2790]: 192.65.89.23 GET /api/orders/38450 200 7941
+2026-10-16 08:13:27 gw01 nginx[9962]: 172.115.102.220 GET /api/orders/22536 200 8322
+2026-10-16 08:13:29 gw01 nginx[7931]: 10.254.103.212 GET /api/orders/90078 200 390
+2026-10-16 08:13:29 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:13:31 gw01 sshd[5049]: Accepted password for priya from 192.102.149.48 port 50340 ssh2
+2026-10-16 08:13:31 gw01 sshd[9794]: Accepted password for ravi from 192.144.234.116 port 30285 ssh2
+2026-10-16 08:13:31 gw01 sshd[3682]: Accepted password for deepak from 10.221.21.245 port 39158 ssh2
+2026-10-16 08:13:31 gw01 sshd[5072]: Accepted password for meena from 10.124.254.53 port 34931 ssh2
+2026-10-16 08:13:34 gw01 sshd[7206]: Accepted password for priya from 192.215.16.177 port 64817 ssh2
+2026-10-16 08:13:34 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:13:36 gw01 sshd[4078]: Accepted password for bob from 172.132.41.61 port 37612 ssh2
+2026-10-16 08:13:36 gw01 nginx[7674]: 192.54.55.102 GET /api/orders/69295 200 1578
+2026-10-16 08:13:38 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:13:39 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:13:42 gw01 nginx[3412]: 192.104.136.213 GET /api/orders/95384 200 2313
+2026-10-16 08:13:43 gw01 nginx[7957]: 192.161.153.168 GET /api/orders/5013 200 8245
+2026-10-16 08:13:45 gw01 sshd[7098]: Accepted password for carol from 10.204.144.195 port 61265 ssh2
+2026-10-16 08:13:47 gw01 kernel: eth0: link is up 100 Mbps
+2026-10-16 08:13:48 gw01 sshd[3303]: Accepted password for alice from 10.143.4.26 port 44564 ssh2
+2026-10-16 08:13:49 gw01 sshd[4485]: Failed password for root from 172.97.61.3 port 43551 ssh2
+2026-10-16 08:13:49 gw01 sshd[2901]: Accepted password for priya from 192.92.164.106 port 62251 ssh2
+2026-10-16 08:13:49 gw01 sshd[3015]: Accepted password for deepak from 10.199.226.168 port 57043 ssh2
+2026-10-16 08:13:51 gw01 sshd[4295]: Failed password for root from 10.188.249.213 port 42946 ssh2
+2026-10-16 08:13:54 gw01 sshd[4428]: Accepted password for alice from 10.159.51.185 port 40461 ssh2
+2026-10-16 08:13:54 gw01 sshd[4402]: Accepted password for priya from 192.36.99.225 port 56328 ssh2
+2026-10-16 08:13:57 gw01 sshd[5155]: Accepted password for bob from 192.11.110.108 port 50349 ssh2
+2026-10-16 08:13:59 gw01 kernel: eth1: link is up 1000 Mbps
+2026-10-16 08:13:59 gw01 nginx[2987]: 172.231.164.203 GET /api/orders/54948 200 4533
+2026-10-16 08:14:02 gw01 nginx[4719]: 10.21.143.252 GET /api/orders/96325 200 8692
+2026-10-16 08:14:04 gw01 sshd[5956]: Accepted password for carol from 192.78.38.68 port 46750 ssh2
+2026-10-16 08:14:07 gw01 sshd[8909]: Accepted password for arun from 192.232.42.212 port 36654 ssh2
+2026-10-16 08:14:09 gw01 sshd[4855]: Accepted password for deepak from 10.253.209.72 port 47255 ssh2
+2026-10-16 08:14:10 gw01 cron[8209]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:14:13 gw01 sshd[5274]: Accepted password for arun from 192.175.154.159 port 64914 ssh2
+2026-10-16 08:14:14 gw01 sshd[9109]: Accepted password for arun from 172.172.83.115 port 56663 ssh2
+2026-10-16 08:14:14 gw01 sshd[5093]: Accepted password for bob from 172.219.166.166 port 36553 ssh2
+2026-10-16 08:14:15 gw01 nginx[2695]: 172.128.235.79 GET /api/orders/78180 200 2126
+2026-10-16 08:14:18 gw01 sshd[6943]: Accepted password for bob from 192.67.38.160 port 31994 ssh2
+2026-10-16 08:14:21 gw01 sshd[7936]: Accepted password for deepak from 192.36.155.36 port 59301 ssh2
+2026-10-16 08:14:21 gw01 nginx[7817]: 192.153.225.14 GET /api/orders/10769 200 4532
+2026-10-16 08:14:23 gw01 sshd[7482]: Accepted password for meena from 192.14.92.100 port 46706 ssh2
+2026-10-16 08:14:26 gw01 sshd[2349]: Accepted password for bob from 172.143.172.84 port 58266 ssh2
+2026-10-16 08:14:27 gw01 sshd[8884]: Accepted password for priya from 10.181.170.226 port 35696 ssh2
+2026-10-16 08:14:27 gw01 cron[1204]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:14:29 gw01 nginx[2551]: 192.49.142.26 GET /api/orders/85972 200 704
+2026-10-16 08:14:31 gw01 sshd[3486]: Accepted password for deepak from 192.43.230.252 port 56354 ssh2
+2026-10-16 08:14:33 gw01 sshd[7815]: Accepted password for deepak from 172.253.28.163 port 33520 ssh2
+2026-10-16 08:14:36 gw01 nginx[1085]: 172.23.193.63 GET /api/orders/48331 200 8792
+2026-10-16 08:14:36 gw01 sshd[7050]: Accepted password for arun from 10.16.14.173 port 50400 ssh2
+2026-10-16 08:14:37 gw01 sshd[4000]: Accepted password for meena from 10.42.245.100 port 36706 ssh2
+2026-10-16 08:14:37 gw01 sshd[6813]: Failed password for invalid user ftpuser from 192.33.103.246 port 40183 ssh2
+2026-10-16 08:14:37 gw01 sshd[9695]: Accepted password for arun from 10.199.114.177 port 58073 ssh2
+2026-10-16 08:14:39 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:14:41 gw01 nginx[9890]: 192.36.6.91 GET /api/orders/40856 200 5168
+2026-10-16 08:14:42 gw01 sshd[1475]: Accepted password for ravi from 172.110.152.215 port 44385 ssh2
+2026-10-16 08:14:43 gw01 sshd[2553]: Accepted password for ravi from 172.57.155.223 port 60327 ssh2
+2026-10-16 08:14:45 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:14:48 gw01 sshd[2039]: Accepted password for bob from 192.1.35.170 port 59274 ssh2
+2026-10-16 08:14:49 gw01 sshd[4231]: Accepted password for ravi from 10.31.159.70 port 35678 ssh2
+2026-10-16 08:14:50 gw01 sshd[8376]: Accepted password for alice from 172.146.124.93 port 38442 ssh2
+2026-10-16 08:14:50 gw01 sshd[7256]: Accepted password for deepak from 172.72.192.7 port 63111 ssh2
+2026-10-16 08:14:51 gw01 sshd[1965]: Accepted password for carol from 10.193.126.224 port 53599 ssh2
+2026-10-16 08:14:51 gw01 nginx[6327]: 192.142.78.181 GET /api/orders/69366 200 6830
+2026-10-16 08:14:52 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:14:55 gw01 cron[4346]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:14:58 gw01 sshd[5062]: Accepted password for carol from 192.136.247.42 port 54745 ssh2
+2026-10-16 08:14:58 gw01 sshd[6472]: Accepted password for arun from 10.90.107.25 port 64746 ssh2
+2026-10-16 08:14:59 gw01 nginx[5473]: 172.27.173.101 GET /api/orders/98741 200 2875
+2026-10-16 08:15:02 gw01 sshd[3675]: Accepted password for meena from 10.161.208.180 port 46817 ssh2
+2026-10-16 08:15:05 gw01 nginx[7610]: 10.103.55.158 GET /api/orders/80467 200 7055
+2026-10-16 08:15:07 gw01 sshd[9244]: Accepted password for arun from 192.179.60.72 port 32541 ssh2
+2026-10-16 08:15:09 gw01 sshd[8084]: Accepted password for carol from 172.149.211.31 port 55691 ssh2
+2026-10-16 08:15:09 gw01 nginx[8389]: 192.35.28.59 GET /api/orders/47962 200 4772
+2026-10-16 08:15:11 gw01 sshd[3809]: Accepted password for arun from 192.30.41.186 port 56813 ssh2
+2026-10-16 08:15:11 gw01 sshd[3090]: Accepted password for carol from 10.51.45.123 port 45046 ssh2
+2026-10-16 08:15:12 gw01 kernel: eth1: link is up 100 Mbps
+2026-10-16 08:15:13 gw01 cron[9039]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:15:14 gw01 nginx[1083]: 10.231.129.150 GET /api/orders/46868 200 3004
+2026-10-16 08:15:16 gw01 nginx[8589]: 10.222.242.253 GET /api/orders/38199 200 1753
+2026-10-16 08:15:16 gw01 nginx[2757]: 10.208.1.121 GET /api/orders/83805 200 481
+2026-10-16 08:15:18 gw01 sshd[9929]: Accepted password for ravi from 192.46.123.62 port 31000 ssh2
+2026-10-16 08:15:21 gw01 kernel: eth0: link is up 1000 Mbps
+2026-10-16 08:15:21 gw01 sshd[1106]: Accepted password for priya from 10.66.112.14 port 42625 ssh2
+2026-10-16 08:15:23 gw01 nginx[4098]: 192.221.253.184 GET /api/orders/83287 200 491
+2026-10-16 08:15:24 gw01 cron[7890]: (root) CMD (run-parts /etc/cron.hourly)
+2026-10-16 08:15:25 gw01 nginx[2886]: 192.202.209.223 GET /api/orders/44253 200 3485
+2026-10-16 08:15:28 gw01 sshd[5325]: Accepted password for meena from 172.89.181.233 port 42366 ssh2
+2026-10-16 08:15:29 gw01 sshd[7115]: Accepted password for deepak from 192.175.21.6 port 55791 ssh2
+2026-10-16 08:15:29 gw01 sshd[9798]: Accepted password for priya from 10.184.131.30 port 62415 ssh2
+2026-10-16 08:15:30 gw01 nginx[1120]: 192.76.98.228 GET /api/orders/33350 200 2213
+2026-10-16 08:15:32 gw01 nginx[5507]: 172.150.182.97 GET /api/orders/14610 200 7864
+2026-10-16 08:15:32 gw01 sshd[7065]: Accepted password for bob from 192.57.140.86 port 44529 ssh2
+2026-10-16 08:15:35 gw01 sshd[4220]: Accepted password for arun from 172.230.106.5 port 37699 ssh2
+2026-10-16 08:15:36 gw01 sshd[8589]: Accepted passwo

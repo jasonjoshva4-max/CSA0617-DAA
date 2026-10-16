@@ -1,0 +1,61 @@
+================================================================================================
+ DAA Assignment 2 (CO2)  |  Q2 Sequential search - aircraft maintenance tool tracking
+ Reg No: 192511209  |  Name: Jason Joshva M J  |  Seed: 1209 (last 4 digits of reg no)
+ Run at: 2026-10-16 21:13:12 (system local time)  |  Python 3.13.14
+================================================================================================
+
+--- Demo: "Who currently has Tool T-184?"  (one hangar, 300 issued tools) ---------------------
+  Found at list position 254: ('T-184', 'TECH-417', '09:12', 'BAY-03')  ->  254 comparisons
+
+--- Experiment 1: target position vs comparisons (n = 1000) -----------------------------------
+  search                  position  predicted comps  observed comps
+  ----------------------  --------  ---------------  --------------
+  successful - first             1                1               1
+  successful - 25%             250              250             250
+  successful - middle          500              500             500
+  successful - 75%             750              750             750
+  successful - last          1,000            1,000           1,000
+  unsuccessful (T-32243)  -                   1,000           1,000
+  unsuccessful (T-22896)  -                   1,000           1,000
+  unsuccessful (T-40730)  -                   1,000           1,000
+  [saved results\q2_positions.csv]
+
+--- Experiment 2: list size vs comparisons (averaged over many random lookups) ----------------
+  n        lookups  pred avg hit  obs avg hit  min    max     pred miss  obs miss   us/hit   us/miss  ns/comparison
+  -------  -------  ------------  -----------  -----  ------  ---------  ---------  -------  -------  -------------
+      100    1,000        50.500       49.758      1     100        100    100.000    2.945    6.472         64.716
+    1,000    1,000       500.500      494.684      2   1,000      1,000    1,000.0   26.486   60.582         60.582
+   10,000      500       5,000.5      5,137.3     14   9,971     10,000   10,000.0  259.865  494.639         49.464
+  100,000      100      50,000.5     49,303.4  1,814  97,161    100,000  100,000.0  5,599.8  7,953.9         79.539
+  [saved results\q2_sizes.csv]
+
+--- Experiment 3: operating boundary ----------------------------------------------------------
+  measured cost of one comparison      : 79.5 ns (from n = 100,000)
+  latency rule : unsuccessful search (n comparisons) <= 1 ms  ->  n <= 12,572
+  load rule    : lookups/s x 0.55 n x 79.5 ns <= 5% of one core
+  lookup rate        lookups/s  n max (latency)  n max (load)  n max   limited by
+  -----------------  ---------  ---------------  ------------  ------  ----------
+  1 per minute         0.01667           12,572    68,576,898  12,572  latency   
+  1 per second               1           12,572     1,142,948  12,572  latency   
+  10 per second             10           12,572       114,294  12,572  latency   
+  100 per second           100           12,572        11,429  11,429  load      
+  1,000 per second       1,000           12,572         1,142   1,142  load      
+  10,000 per second     10,000           12,572           114     114  load      
+  [saved results\q2_boundary.csv]
+
+--- Changed condition: one hangar -> 20 facilities --------------------------------------------
+  scenario                 records  lookups/hour  avg comps/lookup  worst comps  comps/hour  worst ms  CPU s/hour  CPU %    
+  -----------------------  -------  ------------  ----------------  -----------  ----------  --------  ----------  ---------
+  1 hangar                     300           120               165          300      19,800   0.02386    0.001575  4.375e-05
+  20 facilities, one list    6,000         2,400             3,300        6,000   7,920,000    0.4772      0.6299     0.0175
+  [saved results\q2_scenarios.csv]
+
+  growth from 1 hangar to 20 facilities: comparisons per lookup x20, lookups x20, total work x400
+  facilities before the latency rule fails : about 42 (worst case grows like k)
+  facilities before the load rule fails    : about 338 (total work grows like k^2)
+  hash index alternative: 0.062 us per lookup (about 1 probe), but it must be updated on every issue and return
+  [graph results\graphs\q2_comparisons.png]
+  [graph results\graphs\q2_boundary.png]
+
+  [q2 finished in 4.7 s]
+
